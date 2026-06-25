@@ -895,13 +895,23 @@ function getSectionDocumentTop(el) {
 }
 
 function resolveActiveNavSection() {
-  const marker = window.scrollY + getNavScrollOffset();
+  const marker = window.scrollY + getNavScrollOffset() + 4;
   let activeId = NAV_SECTION_IDS[0];
 
-  for (const id of NAV_SECTION_IDS) {
+  for (let i = 0; i < NAV_SECTION_IDS.length; i += 1) {
+    const id = NAV_SECTION_IDS[i];
     const el = document.getElementById(id);
     if (!el) continue;
-    if (marker >= getSectionDocumentTop(el) - 2) {
+
+    const top = getSectionDocumentTop(el);
+    const nextEl = document.getElementById(NAV_SECTION_IDS[i + 1]);
+    const bottom = nextEl ? getSectionDocumentTop(nextEl) : Number.POSITIVE_INFINITY;
+
+    if (marker >= top && marker < bottom) {
+      return id;
+    }
+
+    if (marker >= top) {
       activeId = id;
     }
   }
@@ -921,9 +931,25 @@ function setActiveNavSection(id) {
   });
 }
 
+function ensureNavSectionsLayout() {
+  NAV_SECTION_IDS.forEach(id => {
+    const section = document.getElementById(id);
+    if (section) section.style.contentVisibility = 'visible';
+  });
+
+  document.querySelectorAll('.section[id]').forEach(section => {
+    section.style.contentVisibility = 'visible';
+  });
+}
+
 function scrollToNavTarget(el) {
-  const top = getSectionDocumentTop(el) - getNavScrollOffset();
-  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  ensureNavSectionsLayout();
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 }
 
 /* --- DOM Ready --- */
