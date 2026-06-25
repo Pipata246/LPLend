@@ -10,6 +10,11 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://lapis-vivus.vercel.app/">
 
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.jpg" type="image/jpeg" sizes="32x32">
+  <link rel="icon" href="img/favicon.jpg" type="image/jpeg" sizes="192x192">
+  <link rel="apple-touch-icon" href="img/favicon.jpg">
+
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Lapis Vivus — персональный маршрут в Telegram">
@@ -18,11 +23,14 @@
   <meta property="og:site_name" content="Lapis Vivus">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:image" content="https://lapis-vivus.vercel.app/img/favicon.jpg">
+  <meta property="og:image:alt" content="Lapis Vivus">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Lapis Vivus — персональный маршрут в Telegram">
   <meta name="twitter:description" content="36 этапов глубины, три режима, Оракул и сообщество. Поддержка 24/7 — всегда на вашей стороне.">
+  <meta name="twitter:image" content="https://lapis-vivus.vercel.app/img/favicon.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,6 +75,17 @@
 </head>
 <body>
 
+  <div class="page-backdrop" aria-hidden="true">
+    <img
+      class="page-backdrop__img"
+      src="img/hero-bg.png"
+      alt=""
+      decoding="async"
+      fetchpriority="high"
+    >
+    <div class="page-backdrop__shade"></div>
+  </div>
+
   <!-- Cosmic Background System -->
   <canvas id="starfield" aria-hidden="true"></canvas>
   <div class="bg-cosmos" aria-hidden="true">
@@ -94,14 +113,14 @@
       <nav class="nav" id="nav" aria-label="Main navigation">
         <ul class="nav__list">
           <li><a href="#home" class="nav__link" data-i18n="nav.home">Главная</a></li>
-          <li><a href="#services" class="nav__link" data-i18n="nav.modes">Режимы</a></li>
           <li><a href="#community" class="nav__link" data-i18n="nav.community">Сообщество</a></li>
-          <li><a href="#protocol" class="nav__link" data-i18n="nav.protocol">Протокол</a></li>
+          <li><a href="#services" class="nav__link" data-i18n="nav.modes">Режимы</a></li>
           <li><a href="#how-it-works" class="nav__link" data-i18n="nav.howItWorks">Как начать</a></li>
+          <li><a href="#protocol" class="nav__link" data-i18n="nav.protocol">Протокол</a></li>
           <li><a href="#payment" class="nav__link" data-i18n="nav.payment">Оплата</a></li>
           <li><a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
           <li class="nav__cta-wrap">
-            <a href="https://t.me/LapisVivus" class="btn btn--primary btn--block nav__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
+            <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block nav__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
           </li>
         </ul>
       </nav>
@@ -112,7 +131,7 @@
           <span class="lang-switch__divider">/</span>
           <button class="lang-switch__btn active" data-lang="ru" aria-pressed="true">RU</button>
         </div>
-        <a href="https://t.me/LapisVivus" class="btn btn--primary btn--sm header__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
+        <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--sm header__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
         <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
           <span></span>
           <span></span>
@@ -124,121 +143,99 @@
 
   <main>
 
-    <!-- Hero -->
-    <section class="hero" id="home">
-      <div class="hero__ambient" aria-hidden="true">
-        <div class="hero__orb hero__orb--1"></div>
-        <div class="hero__orb hero__orb--2"></div>
-        <div class="hero__spotlight"></div>
-      </div>
+    <!-- Hero + proof -->
+    <div class="hero-shell" id="home">
+      <section class="hero" aria-label="Hero">
+        <div class="container hero__stage">
+          <div class="hero__content">
+          <p class="hero__eyebrow reveal" data-i18n="hero.eyebrow">Индивидуальный маршрут</p>
 
-      <div class="container hero__inner">
-        <div class="hero__visual reveal reveal--delay-2" id="heroVisual" aria-hidden="true">
-          <div class="core" id="heroCore">
-            <div class="core__nebula"></div>
-            <div class="core__halo"></div>
-            <svg class="core__zodiac" viewBox="0 0 420 420" fill="none" aria-hidden="true">
-              <circle cx="210" cy="210" r="200" stroke="rgba(246,210,122,0.12)" stroke-width="1"/>
-              <circle cx="210" cy="210" r="168" stroke="rgba(140,80,220,0.15)" stroke-width="1" stroke-dasharray="4 8"/>
-              <circle cx="210" cy="210" r="136" stroke="rgba(246,210,122,0.08)" stroke-width="1"/>
-            </svg>
-            <div class="core__ring core__ring--1"></div>
-            <div class="core__ring core__ring--2"></div>
-            <div class="core__ring core__ring--3"></div>
-            <div class="core__ring core__ring--4"></div>
-            <div class="core__orbit core__orbit--1"><span></span></div>
-            <div class="core__orbit core__orbit--2"><span></span></div>
-            <div class="core__orbit core__orbit--3"><span></span></div>
-            <div class="core__crystal">
-              <div class="core__crystal-shine"></div>
-              <div class="core__crystal-body"></div>
-              <div class="core__crystal-core"></div>
-            </div>
-            <div class="core__label" data-i18n="hero.coreLabel">Аналитическое ядро</div>
-            <div class="core__float core__float--1">
-              <span class="core__float-value">01</span>
-              <span class="core__float-label" data-i18n="hero.floatProtocol">Протокол</span>
-            </div>
-            <div class="core__float core__float--2">
-              <span class="core__float-value">02</span>
-              <span class="core__float-label" data-i18n="hero.floatMatch">Совместимость</span>
-            </div>
-            <div class="core__float core__float--3">
-              <span class="core__float-value">03</span>
-              <span class="core__float-label" data-i18n="hero.floatOracle">Оракул</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero__content">
-          <div class="hero__badge reveal">
-            <span class="hero__badge-dot" aria-hidden="true"></span>
-            <span data-i18n="hero.badge">Telegram · Lapis Vivus</span>
-          </div>
-
-          <p class="hero__eyebrow reveal reveal--delay" data-i18n="hero.eyebrow">Индивидуальный маршрут</p>
-
-          <h1 class="hero__title reveal reveal--delay-2">
+          <h1 class="hero__title reveal reveal--delay">
             <span data-i18n="hero.titleLine1">Персональный протокол</span>
             <span class="hero__title-accent" data-i18n="hero.titleAccent">глубинного анализа</span>
             <span data-i18n="hero.titleLine2">в Telegram</span>
           </h1>
 
-          <p class="hero__subtitle reveal reveal--delay-3" data-i18n="hero.subtitle">Единственный бот, который выстраивает ваш код личности поэтапно — 36 глубинных этапов, три режима работы и Оракул, который помнит весь ваш путь.</p>
+          <p class="hero__subtitle reveal reveal--delay-2" data-i18n="hero.subtitle">Единственный бот, который выстраивает ваш код личности поэтапно — 36 глубинных этапов, три режима работы и Оракул, который помнит весь ваш путь.</p>
 
-          <div class="hero__chips reveal reveal--delay-3">
+          <div class="hero__chips reveal reveal--delay-2">
             <span class="hero__chip" data-i18n="hero.chip1">Не шаблон — ваш маршрут</span>
             <span class="hero__chip" data-i18n="hero.chip2">Сообщество и поддержка 24/7</span>
             <span class="hero__chip" data-i18n="hero.chip3">36 этапов · 5 частей</span>
           </div>
 
-          <div class="hero__actions reveal reveal--delay-4">
-            <a href="https://t.me/LapisVivus" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
+          <div class="hero__actions reveal reveal--delay-3">
+            <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
               <span data-i18n="hero.ctaPrimary">Начать в боте</span>
               <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
             <a href="#services" class="btn btn--ghost btn--lg" data-i18n="hero.ctaSecondary">Смотреть режимы</a>
           </div>
 
-          <p class="hero__risk reveal reveal--delay-4" data-i18n="hero.risk">Премиум-формат · Поддержка на вашей стороне · RU / EN</p>
+          <p class="hero__risk reveal reveal--delay-3" data-i18n="hero.risk">Премиум-формат · Поддержка на вашей стороне · RU / EN</p>
 
-          <div class="hero__trust reveal reveal--delay-5">
-            <div class="hero__avatars" aria-hidden="true">
-              <span>◆</span><span>◆</span><span>◆</span><span>◆</span>
+          <div class="hero__suite glass reveal reveal--delay-4">
+            <p class="hero__suite-label" data-i18n="hero.suiteLabel">Три режима — одна экосистема</p>
+            <div class="hero__suite-grid">
+              <div class="hero__suite-item">
+                <div class="hero__suite-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 L19 9 L16 21 L8 21 L5 9 Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><circle cx="12" cy="12" r="2.5" fill="currentColor" opacity="0.85"/></svg>
+                </div>
+                <div class="hero__suite-copy">
+                  <strong data-i18n="hero.suite1.title">Протокол</strong>
+                  <span data-i18n="hero.suite1.desc">36 этапов в 5 частях — ваш личный код от корней личности до стратегии действий</span>
+                </div>
+              </div>
+              <div class="hero__suite-item">
+                <div class="hero__suite-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="10" r="4" stroke="currentColor" stroke-width="1.4"/><circle cx="15" cy="10" r="4" stroke="currentColor" stroke-width="1.4"/><path d="M5 18c1.5-2.5 4-4 7-4s5.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                </div>
+                <div class="hero__suite-copy">
+                  <strong data-i18n="hero.suite2.title">Совместимость</strong>
+                  <span data-i18n="hero.suite2.desc">Два профиля, динамика связи и итоговый вердикт — для пары, семьи или бизнеса</span>
+                </div>
+              </div>
+              <div class="hero__suite-item">
+                <div class="hero__suite-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.2" opacity="0.55"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg>
+                </div>
+                <div class="hero__suite-copy">
+                  <strong data-i18n="hero.suite3.title">Оракул</strong>
+                  <span data-i18n="hero.suite3.desc">ИИ-диалог с памятью вашего маршрута — ответы в контексте карты, не из воздуха</span>
+                </div>
+              </div>
             </div>
-            <div class="hero__trust-text">
-              <span class="hero__trust-rating" data-i18n="hero.trustLabel">Lapis Vivus</span>
-              <span data-i18n="hero.trust">Бот + сообщество единомышленников в одной экосистеме</span>
-            </div>
+            <p class="hero__suite-note" data-i18n="hero.suiteNote">Плюс закрытое сообщество и поддержка 24/7 — всё в Telegram, без лишних приложений</p>
           </div>
         </div>
-      </div>
-
-      <a href="#proof" class="hero__scroll" aria-label="Scroll down">
-        <span data-i18n="hero.scroll">Далее</span>
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      </a>
-    </section>
-
-    <!-- Social Proof placeholder -->
-    <section class="proof" id="proof" aria-label="Social proof">
-      <div class="container">
-        <div class="proof__grid">
-          <article class="proof__item glass reveal">
-            <span class="proof__number">36</span>
-            <span class="proof__label" data-i18n="proof.stages">Этапов протокола</span>
-          </article>
-          <article class="proof__item glass reveal reveal--delay">
-            <span class="proof__number">5</span>
-            <span class="proof__label" data-i18n="proof.parts">Частей маршрута</span>
-          </article>
-          <article class="proof__item glass reveal reveal--delay-2">
-            <span class="proof__number">24/7</span>
-            <span class="proof__label" data-i18n="proof.support">Поддержка на вашей стороне</span>
-          </article>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="proof" id="proof" aria-label="Social proof">
+        <div class="container">
+          <div class="proof__grid">
+            <article class="proof__item glass reveal">
+              <span class="proof__tag" data-i18n="proof.protocol.tag">Протокол</span>
+              <span class="proof__number">36</span>
+              <h3 class="proof__title" data-i18n="proof.protocol.title">Этапов глубинного анализа</h3>
+              <p class="proof__desc" data-i18n="proof.protocol.desc">Пять частей маршрута: от матрицы происхождения до стратегии и интеграции. Точечный запрос или полный путь — прогресс сохраняется в профиле.</p>
+            </article>
+            <article class="proof__item glass reveal reveal--delay">
+              <span class="proof__tag" data-i18n="proof.match.tag">Совместимость</span>
+              <span class="proof__number">2→1</span>
+              <h3 class="proof__title" data-i18n="proof.match.title">Отчёт по паре с вердиктом</h3>
+              <p class="proof__desc" data-i18n="proof.match.desc">Два профиля рождения, динамика связи, сильные стороны и риски — итоговая рекомендация под ваш контекст: отношения, семья, бизнес.</p>
+            </article>
+            <article class="proof__item glass reveal reveal--delay-2">
+              <span class="proof__tag" data-i18n="proof.oracle.tag">Оракул</span>
+              <span class="proof__number">24/7</span>
+              <h3 class="proof__title" data-i18n="proof.oracle.title">Диалог с памятью маршрута</h3>
+              <p class="proof__desc" data-i18n="proof.oracle.desc">ИИ видит ваш профиль и пройденные этапы. Личные вопросы — с контекстом карты. Поддержка команды всегда на вашей стороне.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <!-- Community & perks -->
     <section class="section community-gate" id="community">
@@ -246,29 +243,47 @@
         <header class="section__header reveal">
           <p class="section__eyebrow" data-i18n="community.eyebrow">Больше, чем бот</p>
           <h2 class="section__title" data-i18n="community.title">Сообщество Lapis Vivus</h2>
-          <p class="section__subtitle section__subtitle--center" data-i18n="community.desc">Вместе с ботом вы попадаете в закрытое сообщество людей, которым важна глубина, структура и работа с собой. Общение, материалы, обновления — и команда, которая всегда на стороне клиента.</p>
+          <p class="section__subtitle section__subtitle--center" data-i18n="community.desc">Это не просто чат с ботом — вы входите в закрытую среду людей, которым важны глубина, структура и честная работа с собой. Живое общение, разборы, материалы по продукту, анонсы обновлений и команда, которая ведёт вас от первого шага до результата.</p>
         </header>
 
         <div class="perks__grid">
-          <article class="perks__item glass reveal" data-i18n="perks.p1">✦ Закрытое сообщество единомышленников в теме самопознания и аналитики профиля</article>
-          <article class="perks__item glass reveal reveal--delay" data-i18n="perks.p2">✦ Поддержка 24/7 — отвечаем, помогаем, ведём за руку на каждом этапе</article>
-          <article class="perks__item glass reveal reveal--delay" data-i18n="perks.p3">✦ Три премиум-режима в одном боте — протокол, пара, Оракул</article>
-          <article class="perks__item glass reveal reveal--delay-2" data-i18n="perks.p4">✦ Профиль накапливается: каждая сессия делает картину точнее</article>
-          <article class="perks__item glass reveal reveal--delay-2" data-i18n="perks.p5">✦ Оракул с памятью вашего маршрута — не пустой чат</article>
-          <article class="perks__item glass reveal reveal--delay-3" data-i18n="perks.p6">✦ Новости, инсайты и живая среда вокруг продукта</article>
+          <article class="perks__item glass reveal">
+            <h3 class="perks__title" data-i18n="perks.p1.title">Закрытая среда</h3>
+            <p class="perks__desc" data-i18n="perks.p1.desc">Сообщество единомышленников в теме самопознания и аналитики профиля — без шума, случайных советов и поверхностных разборов.</p>
+          </article>
+          <article class="perks__item glass reveal reveal--delay">
+            <h3 class="perks__title" data-i18n="perks.p2.title">Поддержка 24/7</h3>
+            <p class="perks__desc" data-i18n="perks.p2.desc">Живые люди, а не автоответчик: помогаем с ботом, режимами, оплатой и навигацией по маршруту — на каждом этапе пути.</p>
+          </article>
+          <article class="perks__item glass reveal reveal--delay">
+            <h3 class="perks__title" data-i18n="perks.p3.title">Три режима в одном месте</h3>
+            <p class="perks__desc" data-i18n="perks.p3.desc">Протокол, совместимость пары и Оракул — переключайтесь между задачами, не теряя накопленный профиль и историю.</p>
+          </article>
+          <article class="perks__item glass reveal reveal--delay-2">
+            <h3 class="perks__title" data-i18n="perks.p4.title">Профиль, который растёт</h3>
+            <p class="perks__desc" data-i18n="perks.p4.desc">Каждая сессия дополняет картину: этапы, интерпретации и контекст сохраняются — аналитика становится точнее с каждым шагом.</p>
+          </article>
+          <article class="perks__item glass reveal reveal--delay-2">
+            <h3 class="perks__title" data-i18n="perks.p5.title">Оракул с памятью</h3>
+            <p class="perks__desc" data-i18n="perks.p5.desc">Диалог, который знает ваш маршрут целиком — не пустой чат, а ответы с опорой на пройденные этапы и вашу карту.</p>
+          </article>
+          <article class="perks__item glass reveal reveal--delay-3">
+            <h3 class="perks__title" data-i18n="perks.p6.title">Живая экосистема</h3>
+            <p class="perks__desc" data-i18n="perks.p6.desc">Новости, инсайты, обсуждения и обновления продукта — вы всегда в курсе, что происходит внутри Lapis Vivus.</p>
+          </article>
         </div>
 
         <div class="community-gate__card glass reveal">
           <div class="community-gate__glow" aria-hidden="true"></div>
-          <p class="community-gate__lead" data-i18n="community.lead">Бот открывает аналитику. Сообщество открывает среду.</p>
+          <p class="community-gate__lead" data-i18n="community.lead">Бот даёт глубину анализа. Сообщество даёт среду, в которой эта глубина не теряется.</p>
           <div class="community-gate__actions">
             <a href="https://t.me/LapisVivus" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
               <span data-i18n="community.cta">Вступить в @LapisVivus</span>
               <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a href="https://t.me/LapisVivus" class="btn btn--ghost btn--lg" data-i18n="community.ctaBot" target="_blank" rel="noopener noreferrer">Начать в боте</a>
+            <a href="https://t.me/LapisVivus_bot" class="btn btn--ghost btn--lg" data-i18n="community.ctaBot" target="_blank" rel="noopener noreferrer">Начать в боте</a>
           </div>
-          <p class="community-gate__note" data-i18n="community.note">Премиум-экосистема: анализ + люди + поддержка в одном месте</p>
+          <p class="community-gate__note" data-i18n="community.note">Анализ + люди + поддержка в одной премиум-экосистеме — вступайте, когда будете готовы идти вглубь</p>
         </div>
       </div>
     </section>
@@ -284,24 +299,51 @@
 
         <div class="services__grid">
           <article class="service-card glass reveal" id="service-protocol">
-            <span class="service-card__num">01</span>
-            <h3 class="service-card__title" data-i18n="services.protocol.title">💎 Протокол</h3>
-            <p class="service-card__desc" data-i18n="services.protocol.desc">Ваш личный аналитический код. 36 этапов в 5 частях — от корней личности до стратегии действий. Глубина, которую не даёт ни один «разовый разбор».</p>
+            <div class="service-card__head">
+              <span class="service-card__badge" data-i18n="services.protocol.badge">Личный маршрут</span>
+              <span class="service-card__num">01</span>
+            </div>
+            <div class="service-card__icon-wrap">
+              <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3 L19 9 L16 21 L8 21 L5 9 Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                <path d="M12 3 L19 9 L12 13 L5 9 Z" stroke="currentColor" stroke-width="1.2" opacity="0.6"/>
+                <circle cx="12" cy="12" r="2.5" fill="currentColor" opacity="0.85"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.protocol.title">Протокол</h3>
+            <p class="service-card__desc" data-i18n="services.protocol.desc">Ваш личный аналитический код: 36 этапов в 5 частях — от корней личности и архетипов до стратегии действий. Не разовый «разбор», а выстроенный маршрут, который копится в профиле.</p>
+            <div class="service-card__tags">
+              <span data-i18n="services.protocol.tag1">36 этапов</span>
+              <span data-i18n="services.protocol.tag2">5 частей</span>
+              <span data-i18n="services.protocol.tag3">Точечный запрос</span>
+              <span data-i18n="services.protocol.tag4">Полный маршрут</span>
+              <span data-i18n="services.protocol.tag5">Профиль</span>
+            </div>
             <ul class="service-card__list">
-              <li data-i18n="services.protocol.f1">Точечный запрос — дерево целей под ваш вопрос</li>
-              <li data-i18n="services.protocol.f2">Полный маршрут — все 5 частей последовательно</li>
-              <li data-i18n="services.protocol.f3">Прогресс и данные сохраняются в профиле</li>
-              <li data-i18n="services.protocol.f4">Длинные ответы листаются по страницам</li>
+              <li data-i18n="services.protocol.f1">Дерево целей под ваш вопрос — бот подбирает нужный этап</li>
+              <li data-i18n="services.protocol.f2">Полный маршрут: все 5 частей последовательно, без потери логики</li>
+              <li data-i18n="services.protocol.f3">Прогресс, интерпретации и данные сохраняются между сессиями</li>
+              <li data-i18n="services.protocol.f4">Длинные ответы разбиты на страницы — удобно читать в Telegram</li>
+              <li data-i18n="services.protocol.f5">Каждый этап: описание → запуск → интерпретация → следующий шаг</li>
             </ul>
             <a href="#protocol" class="service-card__link" data-i18n="services.protocol.link">Подробнее о протоколе →</a>
           </article>
 
-          <article class="service-card service-card--featured glass reveal reveal--delay" id="service-match">
-            <span class="service-card__badge" data-i18n="services.match.badge">Для двоих</span>
-            <span class="service-card__num">02</span>
-            <h3 class="service-card__title" data-i18n="services.match.title">💫 Совместимость пары</h3>
-            <p class="service-card__desc" data-i18n="services.match.desc">Понимание вашей связи с другим человеком — с вердиктом, динамикой и конкретными рекомендациями. Для отношений, семьи, бизнеса и любого контекста, который вы задаёте сами.</p>
-            <div class="service-card__goals">
+          <article class="service-card glass reveal reveal--delay" id="service-match">
+            <div class="service-card__head">
+              <span class="service-card__badge" data-i18n="services.match.badge">Для двоих</span>
+              <span class="service-card__num">02</span>
+            </div>
+            <div class="service-card__icon-wrap">
+              <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="9" cy="10" r="4" stroke="currentColor" stroke-width="1.4"/>
+                <circle cx="15" cy="10" r="4" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M5 18c1.5-2.5 4-4 7-4s5.5 1.5 7 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.match.title">Совместимость пары</h3>
+            <p class="service-card__desc" data-i18n="services.match.desc">Глубокий разбор связи двух людей: как вы влияете друг на друга, где сильные стороны, где риски — и что делать дальше. Вердикт и рекомендации под контекст, который задаёте вы.</p>
+            <div class="service-card__tags">
               <span data-i18n="services.match.goal1">Отношения</span>
               <span data-i18n="services.match.goal2">Семья</span>
               <span data-i18n="services.match.goal3">Бизнес</span>
@@ -309,24 +351,43 @@
               <span data-i18n="services.match.goal5">Свой контекст</span>
             </div>
             <ul class="service-card__list">
-              <li data-i18n="services.match.f1">Данные обоих профилей рождения</li>
-              <li data-i18n="services.match.f2">Динамика связи, сильные стороны и риски</li>
-              <li data-i18n="services.match.f3">Итоговый вердикт с рекомендацией</li>
-              <li data-i18n="services.match.f4">Отчёт листается по страницам</li>
+              <li data-i18n="services.match.f1">Сбор профилей рождения обоих участников в одном сценарии</li>
+              <li data-i18n="services.match.f2">Динамика связи: совпадения, напряжения, зоны роста</li>
+              <li data-i18n="services.match.f3">Итоговый вердикт с конкретной рекомендацией — не абстракция</li>
+              <li data-i18n="services.match.f4">Полный отчёт листается по страницам, как в протоколе</li>
+              <li data-i18n="services.match.f5">Подходит для пары, родственников, партнёров и любых связей</li>
             </ul>
-            <a href="#for-whom" class="service-card__link" data-i18n="services.match.link">Подробнее →</a>
+            <a href="#for-whom" class="service-card__link" data-i18n="services.match.link">Подробнее о совместимости →</a>
           </article>
 
           <article class="service-card glass reveal reveal--delay-2" id="service-oracle">
-            <span class="service-card__badge service-card__badge--oracle" data-i18n="services.oracle.badge">С контекстом профиля</span>
-            <span class="service-card__num">03</span>
-            <h3 class="service-card__title" data-i18n="services.oracle.title">🔮 Оракул</h3>
-            <p class="service-card__desc" data-i18n="services.oracle.desc">ИИ-проводник, который знает ваш протокол целиком. Задавайте личные вопросы — получайте ответы в контексте вашей карты, а не из воздуха.</p>
+            <div class="service-card__head">
+              <span class="service-card__badge" data-i18n="services.oracle.badge">С контекстом профиля</span>
+              <span class="service-card__num">03</span>
+            </div>
+            <div class="service-card__icon-wrap">
+              <svg class="service-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.4"/>
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.2" opacity="0.55"/>
+                <path d="M12 4v3M12 17v3M4 12h3M17 12h3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title" data-i18n="services.oracle.title">Оракул</h3>
+            <p class="service-card__desc" data-i18n="services.oracle.desc">ИИ-проводник, который знает ваш протокол целиком: профиль, пройденные этапы, накопленные интерпретации. Задавайте личные вопросы — получайте ответы в логике вашей карты.</p>
+            <div class="service-card__tags">
+              <span data-i18n="services.oracle.tag1">Память маршрута</span>
+              <span data-i18n="services.oracle.tag2">Личные вопросы</span>
+              <span data-i18n="services.oracle.tag3">Контекст карты</span>
+              <span data-i18n="services.oracle.tag4">Архив чатов</span>
+              <span data-i18n="services.oracle.tag5">Не шаблон</span>
+            </div>
             <ul class="service-card__list">
-              <li data-i18n="services.oracle.f1">Видит профиль и все пройденные этапы</li>
-              <li data-i18n="services.oracle.f2">1 активный чат · до 10 ответов в сессии</li>
-              <li data-i18n="services.oracle.f3">До 5 чатов в архиве</li>
-              <li data-i18n="services.oracle.f4">Не шаблонный чат — контекст вашего маршрута</li>
+              <li data-i18n="services.oracle.f1">Видит профиль и каждый этап, который вы уже прошли</li>
+              <li data-i18n="services.oracle.f2">1 активный чат · до 10 ответов в сессии — фокус на глубине</li>
+              <li data-i18n="services.oracle.f3">До 5 чатов в архиве — возвращайтесь к важным диалогам</li>
+              <li data-i18n="services.oracle.f4">Ответы привязаны к вашему маршруту, а не к общим шаблонам</li>
+              <li data-i18n="services.oracle.f5">Идеален для уточнений после протокола или совместимости</li>
             </ul>
             <a href="#faq" class="service-card__link" data-i18n="services.oracle.link">Подробнее в FAQ →</a>
           </article>
@@ -492,7 +553,7 @@
             <li data-i18n="telegram.feature2">Сообщество @LapisVivus — среда людей «в теме»</li>
             <li data-i18n="telegram.feature3">Поддержка 24/7: @nikitok_m</li>
           </ul>
-          <a href="https://t.me/LapisVivus" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
             <span data-i18n="telegram.cta">Открыть бот</span>
             <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
@@ -546,7 +607,7 @@
             <li data-i18n="payment.f3">Часть функций платная — баланс списывается по выбранному режиму</li>
             <li data-i18n="payment.f4">Магазин в разработке; пополнение баланса уже работает</li>
           </ul>
-          <a href="https://t.me/LapisVivus" class="btn btn--primary btn--block btn--glow" data-i18n="payment.cta" target="_blank" rel="noopener noreferrer">Перейти в бот</a>
+          <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block btn--glow" data-i18n="payment.cta" target="_blank" rel="noopener noreferrer">Перейти в бот</a>
         </div>
       </div>
     </section>
@@ -652,7 +713,7 @@
           <h2 class="cta-final__title" data-i18n="ctaFinal.title">Ваш персональный маршрут начинается здесь</h2>
           <p class="cta-final__desc" data-i18n="ctaFinal.desc">36 этапов глубины, три режима работы, Оракул с памятью протокола и сообщество тех, кто идёт вглубь. Сделайте первый шаг сегодня.</p>
           <div class="cta-final__actions">
-            <a href="https://t.me/LapisVivus" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--lg btn--glow" target="_blank" rel="noopener noreferrer">
               <span data-i18n="ctaFinal.ctaBot">Начать в боте</span>
               <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
@@ -667,7 +728,7 @@
 
   <!-- Sticky Mobile CTA -->
   <div class="sticky-cta" id="stickyCta" aria-hidden="true">
-    <a href="https://t.me/LapisVivus" class="btn btn--primary btn--block btn--glow" data-i18n="cta.startNow" target="_blank" rel="noopener noreferrer">Начать сейчас</a>
+    <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block btn--glow" data-i18n="cta.startNow" target="_blank" rel="noopener noreferrer">Начать сейчас</a>
   </div>
 
   <!-- Footer -->
@@ -678,8 +739,8 @@
         <p class="footer__tagline" data-i18n="footer.tagline">Персональный протокол глубинного анализа</p>
       </div>
       <nav class="footer__nav" aria-label="Footer navigation">
-        <a href="https://lapis-vivus.vercel.app/legal/offer.html" data-i18n="footer.terms" target="_blank" rel="noopener noreferrer">Оферта</a>
-        <a href="https://lapis-vivus.vercel.app/legal/privacy.html" data-i18n="footer.privacy" target="_blank" rel="noopener noreferrer">Политика</a>
+        <a href="#legal-offer" class="js-legal-link" data-legal="offer" data-i18n="footer.terms">Оферта</a>
+        <a href="#legal-privacy" class="js-legal-link" data-legal="privacy" data-i18n="footer.privacy">Политика</a>
         <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer" data-i18n="footer.support">Поддержка</a>
         <a href="https://t.me/LapisVivus" target="_blank" rel="noopener noreferrer" data-i18n="footer.community">Сообщество</a>
       </nav>
@@ -687,6 +748,25 @@
       <p class="footer__copy">&copy; <span id="year"></span> Lapis Vivus. <span data-i18n="footer.rights">Все права защищены.</span></p>
     </div>
   </footer>
+
+  <!-- Legal views (in-page, like a new tab) -->
+  <div class="legal-page" id="legalPage" hidden aria-hidden="true">
+    <div class="legal-page__inner">
+      <header class="legal-page__bar">
+        <div class="container legal-page__bar-inner">
+          <button type="button" class="legal-page__back" id="legalClose">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-i18n="legal.back">На главную</span>
+          </button>
+          <span class="legal-page__brand">LAPIS VIVUS</span>
+        </div>
+      </header>
+      <div class="container legal-page__content">
+        <article class="legal-doc" id="legal-offer" data-legal-doc="offer" hidden></article>
+        <article class="legal-doc" id="legal-privacy" data-legal-doc="privacy" hidden></article>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

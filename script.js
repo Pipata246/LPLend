@@ -14,7 +14,6 @@ const translations = {
     'cta.openBot': 'Open bot',
     'cta.startNow': 'Start now',
 
-    'hero.badge': 'Telegram · Lapis Vivus',
     'hero.eyebrow': 'Individual route',
     'hero.titleLine1': 'Personal deep-analysis',
     'hero.titleAccent': 'protocol',
@@ -26,63 +25,90 @@ const translations = {
     'hero.ctaPrimary': 'Start in bot',
     'hero.ctaSecondary': 'See modes',
     'hero.risk': 'Premium format · Support on your side · RU / EN',
-    'hero.trustLabel': 'Lapis Vivus',
-    'hero.trust': 'Bot + community of like-minded people in one ecosystem',
-    'hero.scroll': 'Next',
-    'hero.coreLabel': 'Analytical core',
-    'hero.floatProtocol': 'Protocol',
-    'hero.floatMatch': 'Compatibility',
-    'hero.floatOracle': 'Oracle',
+    'hero.suiteLabel': 'Three modes — one ecosystem',
+    'hero.suite1.title': 'Protocol',
+    'hero.suite1.desc': '36 stages in 5 parts — your personal code from personality roots to action strategy',
+    'hero.suite2.title': 'Compatibility',
+    'hero.suite2.desc': 'Two profiles, bond dynamics, and a final verdict — for couples, family, or business',
+    'hero.suite3.title': 'Oracle',
+    'hero.suite3.desc': 'AI dialogue with memory of your route — answers in the context of your chart, not from thin air',
+    'hero.suiteNote': 'Plus a private community and 24/7 support — all in Telegram, no extra apps',
 
-    'proof.stages': 'Protocol stages',
-    'proof.parts': 'Route parts',
-    'proof.support': 'Support on your side',
+    'proof.protocol.tag': 'Protocol',
+    'proof.protocol.title': 'Stages of deep analysis',
+    'proof.protocol.desc': 'Five route parts: from origin matrix to strategy and integration. Targeted request or full path — progress saved in your profile.',
+    'proof.match.tag': 'Compatibility',
+    'proof.match.title': 'Pair report with verdict',
+    'proof.match.desc': 'Two birth profiles, bond dynamics, strengths and risks — final recommendation for your context: relationships, family, business.',
+    'proof.oracle.tag': 'Oracle',
+    'proof.oracle.title': 'Dialogue with route memory',
+    'proof.oracle.desc': 'AI sees your profile and completed stages. Personal questions — in chart context. Team support always on your side.',
 
     'community.eyebrow': 'More than a bot',
     'community.title': 'The Lapis Vivus community',
-    'community.desc': 'Along with the bot, you join a private community of people who care about depth, structure, and self-understanding. Conversation, materials, updates — and a team always on the client\'s side.',
-    'community.lead': 'The bot opens analytics. The community opens the environment.',
+    'community.desc': 'This is not just a bot chat — you enter a private space of people who work on themselves with depth and structure. Live conversation, breakdowns, product materials, updates, and a team that guides you from the first step to results.',
+    'community.lead': 'The bot delivers analytical depth. The community gives you an environment where that depth is not lost.',
     'community.cta': 'Join @LapisVivus',
     'community.ctaBot': 'Start in bot',
-    'community.note': 'Premium ecosystem: analysis + people + support in one place',
+    'community.note': 'Analysis + people + support in one premium ecosystem — join when you are ready to go deep',
 
-    'perks.p1': '✦ A private community of like-minded people in self-knowledge and profile analytics',
-    'perks.p2': '✦ 24/7 support — we answer, help, and guide you at every step',
-    'perks.p3': '✦ Three premium modes in one bot — protocol, pair, Oracle',
-    'perks.p4': '✦ Your profile grows: each session makes the picture sharper',
-    'perks.p5': '✦ Oracle with memory of your route — not an empty chat',
-    'perks.p6': '✦ News, insights, and a living environment around the product',
+    'perks.p1.title': 'Private space',
+    'perks.p1.desc': 'A community of like-minded people in self-knowledge and profile analytics — without noise, random advice, or shallow takes.',
+    'perks.p2.title': '24/7 support',
+    'perks.p2.desc': 'Real people, not auto-replies: we help with the bot, modes, payment, and route navigation — at every step.',
+    'perks.p3.title': 'Three modes in one place',
+    'perks.p3.desc': 'Protocol, pair compatibility, and Oracle — switch tasks without losing your profile and history.',
+    'perks.p4.title': 'A growing profile',
+    'perks.p4.desc': 'Each session sharpens the picture: stages, interpretations, and context are saved — analytics get more precise over time.',
+    'perks.p5.title': 'Oracle with memory',
+    'perks.p5.desc': 'A dialogue that knows your entire route — not an empty chat, but answers grounded in completed stages and your chart.',
+    'perks.p6.title': 'Living ecosystem',
+    'perks.p6.desc': 'News, insights, discussions, and product updates — you always know what is happening inside Lapis Vivus.',
 
     'services.eyebrow': 'Three modes',
     'services.title': 'Protocol · Compatibility · Oracle',
     'services.subtitle': 'Three powerful scenarios in one premium bot. Choose the depth for your task — from a single question to a full route and live dialogue with the Oracle.',
-    'services.protocol.title': '💎 Protocol',
-    'services.protocol.desc': 'Your personal analytical code. 36 stages in 5 parts — from the roots of personality to a strategy for action. Depth no one-off reading can match.',
-    'services.protocol.f1': 'Targeted request — goal tree for your question',
-    'services.protocol.f2': 'Full route — all 5 parts in sequence',
-    'services.protocol.f3': 'Progress and data saved in your profile',
-    'services.protocol.f4': 'Long answers paginated',
+    'services.protocol.badge': 'Personal route',
+    'services.protocol.title': 'Protocol',
+    'services.protocol.desc': 'Your personal analytical code: 36 stages in 5 parts — from personality roots and archetypes to action strategy. Not a one-off reading, but a built route that accumulates in your profile.',
+    'services.protocol.tag1': '36 stages',
+    'services.protocol.tag2': '5 parts',
+    'services.protocol.tag3': 'Targeted request',
+    'services.protocol.tag4': 'Full route',
+    'services.protocol.tag5': 'Profile',
+    'services.protocol.f1': 'Goal tree for your question — the bot picks the right stage',
+    'services.protocol.f2': 'Full route: all 5 parts in sequence, without losing logic',
+    'services.protocol.f3': 'Progress, interpretations, and data saved between sessions',
+    'services.protocol.f4': 'Long answers split into pages — easy to read in Telegram',
+    'services.protocol.f5': 'Each stage: description → run → interpretation → next step',
     'services.protocol.link': 'Protocol details →',
     'services.match.badge': 'For two',
-    'services.match.title': '💫 Pair compatibility',
-    'services.match.desc': 'Understand your bond with another person — with a verdict, dynamics, and concrete recommendations. For relationships, family, business, or any context you define.',
+    'services.match.title': 'Pair compatibility',
+    'services.match.desc': 'A deep read of the bond between two people: how you affect each other, strengths, risks — and what to do next. Verdict and recommendations for the context you define.',
     'services.match.goal1': 'Relationships',
     'services.match.goal2': 'Family',
     'services.match.goal3': 'Business',
     'services.match.goal4': 'Friendship',
     'services.match.goal5': 'Custom context',
-    'services.match.f1': 'Both birth profiles collected',
-    'services.match.f2': 'Bond dynamics, strengths, and risks',
-    'services.match.f3': 'Final verdict with recommendation',
-    'services.match.f4': 'Report paginated',
-    'services.match.link': 'Learn more →',
+    'services.match.f1': 'Both birth profiles collected in one scenario',
+    'services.match.f2': 'Bond dynamics: alignments, tensions, growth zones',
+    'services.match.f3': 'Final verdict with a concrete recommendation — not abstraction',
+    'services.match.f4': 'Full report paginated, like in the protocol',
+    'services.match.f5': 'For couples, relatives, partners, and any bond you define',
+    'services.match.link': 'Compatibility details →',
     'services.oracle.badge': 'Profile-aware',
-    'services.oracle.title': '🔮 Oracle',
-    'services.oracle.desc': 'An AI guide that knows your entire protocol. Ask personal questions — get answers in the context of your chart, not from thin air.',
-    'services.oracle.f1': 'Sees your profile and every stage you\'ve completed',
-    'services.oracle.f2': '1 active chat · up to 10 replies per session',
-    'services.oracle.f3': 'Up to 5 chats in archive',
-    'services.oracle.f4': 'Not a generic chat — your route context',
+    'services.oracle.title': 'Oracle',
+    'services.oracle.desc': 'An AI guide that knows your entire protocol: profile, completed stages, accumulated interpretations. Ask personal questions — get answers in the logic of your chart.',
+    'services.oracle.tag1': 'Route memory',
+    'services.oracle.tag2': 'Personal questions',
+    'services.oracle.tag3': 'Chart context',
+    'services.oracle.tag4': 'Chat archive',
+    'services.oracle.tag5': 'Not a template',
+    'services.oracle.f1': 'Sees your profile and every stage you have completed',
+    'services.oracle.f2': '1 active chat · up to 10 replies per session — depth over noise',
+    'services.oracle.f3': 'Up to 5 chats in archive — return to important dialogues',
+    'services.oracle.f4': 'Answers tied to your route, not generic templates',
+    'services.oracle.f5': 'Ideal for follow-ups after protocol or compatibility',
     'services.oracle.link': 'More in FAQ →',
 
     'how.eyebrow': 'Your path',
@@ -184,6 +210,8 @@ const translations = {
     'footer.disclaimer': 'Materials are for information and analysis only. Not medical, legal, financial, or other professional advice. You make your own decisions.',
     'footer.rights': 'All rights reserved.',
 
+    'legal.back': 'Back to home',
+
     'ctaFinal.eyebrow': 'Start now',
     'ctaFinal.title': 'Your personal route starts here',
     'ctaFinal.desc': '36 stages of depth, three modes, an Oracle that remembers your protocol, and a community of those who go deep. Take the first step today.',
@@ -203,7 +231,6 @@ const translations = {
     'cta.openBot': 'Открыть бот',
     'cta.startNow': 'Начать сейчас',
 
-    'hero.badge': 'Telegram · Lapis Vivus',
     'hero.eyebrow': 'Индивидуальный маршрут',
     'hero.titleLine1': 'Персональный протокол',
     'hero.titleAccent': 'глубинного анализа',
@@ -215,63 +242,90 @@ const translations = {
     'hero.ctaPrimary': 'Начать в боте',
     'hero.ctaSecondary': 'Смотреть режимы',
     'hero.risk': 'Премиум-формат · Поддержка на вашей стороне · RU / EN',
-    'hero.trustLabel': 'Lapis Vivus',
-    'hero.trust': 'Бот + сообщество единомышленников в одной экосистеме',
-    'hero.scroll': 'Далее',
-    'hero.coreLabel': 'Аналитическое ядро',
-    'hero.floatProtocol': 'Протокол',
-    'hero.floatMatch': 'Совместимость',
-    'hero.floatOracle': 'Оракул',
+    'hero.suiteLabel': 'Три режима — одна экосистема',
+    'hero.suite1.title': 'Протокол',
+    'hero.suite1.desc': '36 этапов в 5 частях — ваш личный код от корней личности до стратегии действий',
+    'hero.suite2.title': 'Совместимость',
+    'hero.suite2.desc': 'Два профиля, динамика связи и итоговый вердикт — для пары, семьи или бизнеса',
+    'hero.suite3.title': 'Оракул',
+    'hero.suite3.desc': 'ИИ-диалог с памятью вашего маршрута — ответы в контексте карты, не из воздуха',
+    'hero.suiteNote': 'Плюс закрытое сообщество и поддержка 24/7 — всё в Telegram, без лишних приложений',
 
-    'proof.stages': 'Этапов протокола',
-    'proof.parts': 'Частей маршрута',
-    'proof.support': 'Поддержка на вашей стороне',
+    'proof.protocol.tag': 'Протокол',
+    'proof.protocol.title': 'Этапов глубинного анализа',
+    'proof.protocol.desc': 'Пять частей маршрута: от матрицы происхождения до стратегии и интеграции. Точечный запрос или полный путь — прогресс сохраняется в профиле.',
+    'proof.match.tag': 'Совместимость',
+    'proof.match.title': 'Отчёт по паре с вердиктом',
+    'proof.match.desc': 'Два профиля рождения, динамика связи, сильные стороны и риски — итоговая рекомендация под ваш контекст: отношения, семья, бизнес.',
+    'proof.oracle.tag': 'Оракул',
+    'proof.oracle.title': 'Диалог с памятью маршрута',
+    'proof.oracle.desc': 'ИИ видит ваш профиль и пройденные этапы. Личные вопросы — с контекстом карты. Поддержка команды всегда на вашей стороне.',
 
     'community.eyebrow': 'Больше, чем бот',
     'community.title': 'Сообщество Lapis Vivus',
-    'community.desc': 'Вместе с ботом вы попадаете в закрытое сообщество людей, которым важна глубина, структура и работа с собой. Общение, материалы, обновления — и команда, которая всегда на стороне клиента.',
-    'community.lead': 'Бот открывает аналитику. Сообщество открывает среду.',
+    'community.desc': 'Это не просто чат с ботом — вы входите в закрытую среду людей, которым важны глубина, структура и честная работа с собой. Живое общение, разборы, материалы по продукту, анонсы обновлений и команда, которая ведёт вас от первого шага до результата.',
+    'community.lead': 'Бот даёт глубину анализа. Сообщество даёт среду, в которой эта глубина не теряется.',
     'community.cta': 'Вступить в @LapisVivus',
     'community.ctaBot': 'Начать в боте',
-    'community.note': 'Премиум-экосистема: анализ + люди + поддержка в одном месте',
+    'community.note': 'Анализ + люди + поддержка в одной премиум-экосистеме — вступайте, когда будете готовы идти вглубь',
 
-    'perks.p1': '✦ Закрытое сообщество единомышленников в теме самопознания и аналитики профиля',
-    'perks.p2': '✦ Поддержка 24/7 — отвечаем, помогаем, ведём за руку на каждом этапе',
-    'perks.p3': '✦ Три премиум-режима в одном боте — протокол, пара, Оракул',
-    'perks.p4': '✦ Профиль накапливается: каждая сессия делает картину точнее',
-    'perks.p5': '✦ Оракул с памятью вашего маршрута — не пустой чат',
-    'perks.p6': '✦ Новости, инсайты и живая среда вокруг продукта',
+    'perks.p1.title': 'Закрытая среда',
+    'perks.p1.desc': 'Сообщество единомышленников в теме самопознания и аналитики профиля — без шума, случайных советов и поверхностных разборов.',
+    'perks.p2.title': 'Поддержка 24/7',
+    'perks.p2.desc': 'Живые люди, а не автоответчик: помогаем с ботом, режимами, оплатой и навигацией по маршруту — на каждом этапе пути.',
+    'perks.p3.title': 'Три режима в одном месте',
+    'perks.p3.desc': 'Протокол, совместимость пары и Оракул — переключайтесь между задачами, не теряя накопленный профиль и историю.',
+    'perks.p4.title': 'Профиль, который растёт',
+    'perks.p4.desc': 'Каждая сессия дополняет картину: этапы, интерпретации и контекст сохраняются — аналитика становится точнее с каждым шагом.',
+    'perks.p5.title': 'Оракул с памятью',
+    'perks.p5.desc': 'Диалог, который знает ваш маршрут целиком — не пустой чат, а ответы с опорой на пройденные этапы и вашу карту.',
+    'perks.p6.title': 'Живая экосистема',
+    'perks.p6.desc': 'Новости, инсайты, обсуждения и обновления продукта — вы всегда в курсе, что происходит внутри Lapis Vivus.',
 
     'services.eyebrow': 'Три режима',
     'services.title': 'Протокол · Совместимость · Оракул',
     'services.subtitle': 'Три мощных сценария в одном премиум-боте. Выбирайте глубину под задачу — от точечного вопроса до полного маршрута и живого диалога с Оракулом.',
-    'services.protocol.title': '💎 Протокол',
-    'services.protocol.desc': 'Ваш личный аналитический код. 36 этапов в 5 частях — от корней личности до стратегии действий. Глубина, которую не даёт ни один «разовый разбор».',
-    'services.protocol.f1': 'Точечный запрос — дерево целей под ваш вопрос',
-    'services.protocol.f2': 'Полный маршрут — все 5 частей последовательно',
-    'services.protocol.f3': 'Прогресс и данные сохраняются в профиле',
-    'services.protocol.f4': 'Длинные ответы листаются по страницам',
+    'services.protocol.badge': 'Личный маршрут',
+    'services.protocol.title': 'Протокол',
+    'services.protocol.desc': 'Ваш личный аналитический код: 36 этапов в 5 частях — от корней личности и архетипов до стратегии действий. Не разовый «разбор», а выстроенный маршрут, который копится в профиле.',
+    'services.protocol.tag1': '36 этапов',
+    'services.protocol.tag2': '5 частей',
+    'services.protocol.tag3': 'Точечный запрос',
+    'services.protocol.tag4': 'Полный маршрут',
+    'services.protocol.tag5': 'Профиль',
+    'services.protocol.f1': 'Дерево целей под ваш вопрос — бот подбирает нужный этап',
+    'services.protocol.f2': 'Полный маршрут: все 5 частей последовательно, без потери логики',
+    'services.protocol.f3': 'Прогресс, интерпретации и данные сохраняются между сессиями',
+    'services.protocol.f4': 'Длинные ответы разбиты на страницы — удобно читать в Telegram',
+    'services.protocol.f5': 'Каждый этап: описание → запуск → интерпретация → следующий шаг',
     'services.protocol.link': 'Подробнее о протоколе →',
     'services.match.badge': 'Для двоих',
-    'services.match.title': '💫 Совместимость пары',
-    'services.match.desc': 'Понимание вашей связи с другим человеком — с вердиктом, динамикой и конкретными рекомендациями. Для отношений, семьи, бизнеса и любого контекста, который вы задаёте сами.',
+    'services.match.title': 'Совместимость пары',
+    'services.match.desc': 'Глубокий разбор связи двух людей: как вы влияете друг на друга, где сильные стороны, где риски — и что делать дальше. Вердикт и рекомендации под контекст, который задаёте вы.',
     'services.match.goal1': 'Отношения',
     'services.match.goal2': 'Семья',
     'services.match.goal3': 'Бизнес',
     'services.match.goal4': 'Дружба',
     'services.match.goal5': 'Свой контекст',
-    'services.match.f1': 'Данные обоих профилей рождения',
-    'services.match.f2': 'Динамика связи, сильные стороны и риски',
-    'services.match.f3': 'Итоговый вердикт с рекомендацией',
-    'services.match.f4': 'Отчёт листается по страницам',
-    'services.match.link': 'Подробнее →',
+    'services.match.f1': 'Сбор профилей рождения обоих участников в одном сценарии',
+    'services.match.f2': 'Динамика связи: совпадения, напряжения, зоны роста',
+    'services.match.f3': 'Итоговый вердикт с конкретной рекомендацией — не абстракция',
+    'services.match.f4': 'Полный отчёт листается по страницам, как в протоколе',
+    'services.match.f5': 'Подходит для пары, родственников, партнёров и любых связей',
+    'services.match.link': 'Подробнее о совместимости →',
     'services.oracle.badge': 'С контекстом профиля',
-    'services.oracle.title': '🔮 Оракул',
-    'services.oracle.desc': 'ИИ-проводник, который знает ваш протокол целиком. Задавайте личные вопросы — получайте ответы в контексте вашей карты, а не из воздуха.',
-    'services.oracle.f1': 'Видит профиль и все пройденные этапы',
-    'services.oracle.f2': '1 активный чат · до 10 ответов в сессии',
-    'services.oracle.f3': 'До 5 чатов в архиве',
-    'services.oracle.f4': 'Не шаблонный чат — контекст вашего маршрута',
+    'services.oracle.title': 'Оракул',
+    'services.oracle.desc': 'ИИ-проводник, который знает ваш протокол целиком: профиль, пройденные этапы, накопленные интерпретации. Задавайте личные вопросы — получайте ответы в логике вашей карты.',
+    'services.oracle.tag1': 'Память маршрута',
+    'services.oracle.tag2': 'Личные вопросы',
+    'services.oracle.tag3': 'Контекст карты',
+    'services.oracle.tag4': 'Архив чатов',
+    'services.oracle.tag5': 'Не шаблон',
+    'services.oracle.f1': 'Видит профиль и каждый этап, который вы уже прошли',
+    'services.oracle.f2': '1 активный чат · до 10 ответов в сессии — фокус на глубине',
+    'services.oracle.f3': 'До 5 чатов в архиве — возвращайтесь к важным диалогам',
+    'services.oracle.f4': 'Ответы привязаны к вашему маршруту, а не к общим шаблонам',
+    'services.oracle.f5': 'Идеален для уточнений после протокола или совместимости',
     'services.oracle.link': 'Подробнее в FAQ →',
 
     'how.eyebrow': 'Ваш путь',
@@ -373,6 +427,8 @@ const translations = {
     'footer.disclaimer': 'Материалы носят информационно-аналитический характер. Не являются медицинской, юридической, финансовой или иной профессиональной консультацией. Решения пользователь принимает самостоятельно.',
     'footer.rights': 'Все права защищены.',
 
+    'legal.back': 'На главную',
+
     'ctaFinal.eyebrow': 'Начните сейчас',
     'ctaFinal.title': 'Ваш персональный маршрут начинается здесь',
     'ctaFinal.desc': '36 этапов глубины, три режима, Оракул с памятью протокола и сообщество тех, кто идёт вглубь. Сделайте первый шаг сегодня.',
@@ -381,6 +437,149 @@ const translations = {
     'ctaFinal.note': 'Поддержка 24/7 · @nikitok_m · RU / EN в боте'
   }
 };
+
+const legalDocs = {
+  ru: {
+    offer: {
+      html: `
+        <h1 class="legal-doc__title">Публичная оферта</h1>
+        <p class="legal-doc__updated">Редакция от 22 июня 2025 г.</p>
+        <p>Настоящий документ является официальным предложением (публичной офертой) владельца сервиса Lapis Vivus заключить договор на условиях, изложенных ниже.</p>
+        <h2>1. Термины</h2>
+        <p><strong>Сервис</strong> — Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сопутствующие материалы на сайте lapis-vivus.vercel.app.</p>
+        <p><strong>Пользователь</strong> — физическое лицо, использующее Сервис. <strong>Исполнитель</strong> — лицо, предоставляющее доступ к Сервису.</p>
+        <h2>2. Предмет договора</h2>
+        <p>Исполнитель предоставляет Пользователю доступ к информационно-аналитическим функциям Сервиса: персональный протокол, режим совместимости, Оракул, а также сопутствующие материалы и сообщество.</p>
+        <p>Материалы носят информационно-аналитический характер и не являются медицинской, юридической, финансовой или иной профессиональной консультацией.</p>
+        <h2>3. Порядок акцепта</h2>
+        <p>Акцептом оферты считается начало использования Сервиса: запуск бота, пополнение баланса или оплата услуг. С момента акцепта договор считается заключённым.</p>
+        <h2>4. Стоимость и оплата</h2>
+        <ul>
+          <li>Услуги предоставляются на платной основе через внутренний баланс в рублях.</li>
+          <li>Пополнение — через платёжную систему ЮKassa (от 50 до 100 000 ₽).</li>
+          <li>Актуальные цены отображаются в боте до подтверждения оплаты.</li>
+          <li>Счёт на оплату действует 10 минут с момента выставления.</li>
+        </ul>
+        <h2>5. Права и обязанности сторон</h2>
+        <p>Пользователь обязуется предоставлять достоверные данные, не нарушать правила Telegram и не использовать Сервис в противоправных целях.</p>
+        <p>Исполнитель обеспечивает работу Сервиса в разумных пределах, вправе обновлять функциональность и приостанавливать доступ при технических работах или нарушении правил.</p>
+        <h2>6. Отказ от гарантий</h2>
+        <p>Результаты анализа формируются алгоритмически на основе введённых данных. Исполнитель не гарантирует достижение конкретных жизненных результатов. Решения Пользователь принимает самостоятельно.</p>
+        <h2>7. Возвраты</h2>
+        <p>Вопросы по возврату средств рассматриваются индивидуально при обращении в поддержку <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a> в течение 14 дней с момента оплаты, если услуга фактически не была оказана по вине Исполнителя.</p>
+        <h2>8. Персональные данные</h2>
+        <p>Обработка персональных данных осуществляется в соответствии с <a href="#legal-privacy" class="js-legal-link" data-legal="privacy">Политикой конфиденциальности</a>.</p>
+        <h2>9. Заключительные положения</h2>
+        <p>Исполнитель вправе изменять условия оферты. Актуальная версия публикуется на сайте. Продолжение использования Сервиса означает согласие с новой редакцией.</p>
+        <p>По всем вопросам: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
+      `
+    },
+    privacy: {
+      html: `
+        <h1 class="legal-doc__title">Политика конфиденциальности</h1>
+        <p class="legal-doc__updated">Редакция от 22 июня 2025 г.</p>
+        <p>Настоящая Политика описывает порядок обработки персональных данных пользователей сервиса Lapis Vivus (Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сайт lapis-vivus.vercel.app).</p>
+        <h2>1. Какие данные мы обрабатываем</h2>
+        <ul>
+          <li>Идентификатор Telegram и имя пользователя в мессенджере.</li>
+          <li>Данные профиля для анализа: дата, время и место рождения, пол и иные сведения, которые вы добровольно указываете в боте.</li>
+          <li>История запросов, этапов протокола, чатов с Оракулом и настроек внутри Сервиса.</li>
+          <li>Технические данные: язык интерфейса, сведения о сессии, обезличенная аналитика посещения сайта.</li>
+          <li>Платёжные метаданные при пополнении баланса (сумма, статус операции) — без хранения полных реквизитов банковских карт на нашей стороне.</li>
+        </ul>
+        <h2>2. Цели обработки</h2>
+        <ul>
+          <li>Предоставление функций Сервиса и персонализация аналитики.</li>
+          <li>Обработка платежей и ведение внутреннего баланса.</li>
+          <li>Техническая поддержка пользователей.</li>
+          <li>Улучшение качества продукта и безопасности.</li>
+        </ul>
+        <h2>3. Правовые основания</h2>
+        <p>Обработка осуществляется на основании согласия Пользователя, необходимости исполнения договора (оферты) и законных интересов Исполнителя по обеспечению работоспособности Сервиса.</p>
+        <h2>4. Передача третьим лицам</h2>
+        <p>Данные могут передаваться платформе Telegram, платёжному провайдеру ЮKassa, а также техническим подрядчикам (хостинг, инфраструктура) исключительно для оказания услуг. Передача осуществляется при соблюдении мер защиты и в объёме, необходимом для работы Сервиса.</p>
+        <h2>5. Хранение и защита</h2>
+        <p>Данные хранятся столько, сколько необходимо для целей обработки или в сроки, установленные законом. Применяются организационные и технические меры защиты от несанкционированного доступа.</p>
+        <h2>6. Права пользователя</h2>
+        <p>Вы вправе запросить доступ к своим данным, их уточнение, ограничение обработки или удаление, направив обращение в поддержку <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>.</p>
+        <h2>7. Изменения политики</h2>
+        <p>Мы можем обновлять Политику. Актуальная версия всегда доступна на этой странице. При существенных изменениях уведомим через бот или сообщество.</p>
+        <p>Контакт для вопросов по данным: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
+      `
+    }
+  },
+  en: {
+    offer: {
+      html: `
+        <h1 class="legal-doc__title">Public Offer Agreement</h1>
+        <p class="legal-doc__updated">Effective June 22, 2025</p>
+        <p>This document is a public offer by the owner of Lapis Vivus to enter into an agreement on the terms below.</p>
+        <h2>1. Definitions</h2>
+        <p><strong>Service</strong> — the Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and related materials at lapis-vivus.vercel.app.</p>
+        <p><strong>User</strong> — an individual using the Service. <strong>Provider</strong> — the party granting access to the Service.</p>
+        <h2>2. Subject</h2>
+        <p>The Provider grants access to information and analytical features: personal protocol, compatibility mode, Oracle, related materials, and community access.</p>
+        <p>Materials are for information and analysis only and are not medical, legal, financial, or other professional advice.</p>
+        <h2>3. Acceptance</h2>
+        <p>Acceptance occurs when you start using the Service: launching the bot, topping up balance, or paying for services. The agreement is deemed concluded upon acceptance.</p>
+        <h2>4. Pricing and payment</h2>
+        <ul>
+          <li>Services are paid via an in-bot balance in rubles.</li>
+          <li>Top-up via YooKassa (₽50–100,000).</li>
+          <li>Current prices are shown in the bot before payment confirmation.</li>
+          <li>Payment invoices are valid for 10 minutes.</li>
+        </ul>
+        <h2>5. Rights and obligations</h2>
+        <p>The User must provide accurate data, comply with Telegram rules, and not use the Service for unlawful purposes.</p>
+        <p>The Provider maintains the Service within reasonable limits, may update functionality, and may suspend access for maintenance or rule violations.</p>
+        <h2>6. Disclaimer</h2>
+        <p>Analysis results are generated algorithmically from data you provide. The Provider does not guarantee specific life outcomes. You make your own decisions.</p>
+        <h2>7. Refunds</h2>
+        <p>Refund requests are reviewed individually via support <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a> within 14 days of payment if the service was not delivered due to the Provider's fault.</p>
+        <h2>8. Personal data</h2>
+        <p>Data is processed according to the <a href="#legal-privacy" class="js-legal-link" data-legal="privacy">Privacy Policy</a>.</p>
+        <h2>9. Final provisions</h2>
+        <p>The Provider may amend this offer. The current version is published on the website. Continued use means acceptance of updates.</p>
+        <p>Contact: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
+      `
+    },
+    privacy: {
+      html: `
+        <h1 class="legal-doc__title">Privacy Policy</h1>
+        <p class="legal-doc__updated">Effective June 22, 2025</p>
+        <p>This Policy describes how Lapis Vivus (Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and lapis-vivus.vercel.app) processes personal data.</p>
+        <h2>1. Data we process</h2>
+        <ul>
+          <li>Telegram user ID and display name.</li>
+          <li>Profile data for analysis: birth date, time, place, gender, and other details you voluntarily provide in the bot.</li>
+          <li>Request history, protocol stages, Oracle chats, and in-service settings.</li>
+          <li>Technical data: interface language, session info, anonymized site analytics.</li>
+          <li>Payment metadata when topping up (amount, status) — we do not store full card details.</li>
+        </ul>
+        <h2>2. Purposes</h2>
+        <ul>
+          <li>Providing Service features and personalizing analytics.</li>
+          <li>Processing payments and maintaining in-bot balance.</li>
+          <li>User support.</li>
+          <li>Improving product quality and security.</li>
+        </ul>
+        <h2>3. Legal basis</h2>
+        <p>Processing is based on User consent, contract performance (offer), and the Provider's legitimate interests in operating the Service.</p>
+        <h2>4. Third parties</h2>
+        <p>Data may be shared with Telegram, YooKassa, and technical contractors (hosting, infrastructure) solely to deliver the Service, with appropriate safeguards.</p>
+        <h2>5. Storage and security</h2>
+        <p>Data is kept as long as needed for processing purposes or as required by law. Organizational and technical measures protect against unauthorized access.</p>
+        <h2>6. Your rights</h2>
+        <p>You may request access, correction, restriction, or deletion by contacting <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>.</p>
+        <h2>7. Changes</h2>
+        <p>We may update this Policy. The current version is always available here. Material changes may be announced via the bot or community.</p>
+        <p>Data inquiries: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
+      `
+    }
+  }
+};
+
+let activeLegalDoc = null;
 
 /* --- State --- */
 let currentLang = 'en';
@@ -392,6 +591,60 @@ const PERF = (() => {
   return 'high';
 })();
 
+/* --- Nav scroll spy (matches header order) --- */
+const NAV_SECTION_IDS = [
+  'home',
+  'community',
+  'services',
+  'how-it-works',
+  'protocol',
+  'payment',
+  'faq'
+];
+
+function getNavScrollOffset() {
+  const headerHeight = parseFloat(
+    getComputedStyle(document.documentElement).getPropertyValue('--header-height')
+  ) || 84;
+  return headerHeight + 20;
+}
+
+function getSectionDocumentTop(el) {
+  return el.getBoundingClientRect().top + window.scrollY;
+}
+
+function resolveActiveNavSection() {
+  const marker = window.scrollY + getNavScrollOffset();
+  let activeId = NAV_SECTION_IDS[0];
+
+  for (const id of NAV_SECTION_IDS) {
+    const el = document.getElementById(id);
+    if (!el) continue;
+    if (marker >= getSectionDocumentTop(el) - 2) {
+      activeId = id;
+    }
+  }
+
+  return activeId;
+}
+
+function setActiveNavSection(id) {
+  document.querySelectorAll('.nav__link').forEach(link => {
+    const isActive = link.getAttribute('href') === `#${id}`;
+    link.classList.toggle('active', isActive);
+    if (isActive) {
+      link.setAttribute('aria-current', 'location');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+}
+
+function scrollToNavTarget(el) {
+  const top = getSectionDocumentTop(el) - getNavScrollOffset();
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
 /* --- DOM Ready --- */
 document.addEventListener('DOMContentLoaded', async () => {
   await initLanguage();
@@ -402,9 +655,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   initHeroReveal();
   initScrollHandlers();
   initStarfield();
-  initHeroParallax();
   initStickyCta();
   initDynamicYear();
+  initLegalPages();
 });
 
 /* --- Unified scroll (single rAF) --- */
@@ -412,8 +665,6 @@ function initScrollHandlers() {
   const header = document.getElementById('header');
   const timeline = document.getElementById('timeline');
   const progress = document.getElementById('timelineProgress');
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav__link');
   const timelineItems = timeline ? timeline.querySelectorAll('.timeline__item') : [];
 
   let ticking = false;
@@ -427,15 +678,7 @@ function initScrollHandlers() {
       header.classList.toggle('header--scrolled', scrollY > 50);
     }
 
-    let currentSection = '';
-    sections.forEach(section => {
-      if (scrollY >= section.offsetTop - 100) {
-        currentSection = section.id;
-      }
-    });
-    navLinks.forEach(link => {
-      link.classList.toggle('active', link.getAttribute('href') === '#' + currentSection);
-    });
+    setActiveNavSection(resolveActiveNavSection());
 
     if (timeline && progress) {
       const rect = timeline.getBoundingClientRect();
@@ -567,6 +810,8 @@ function setLanguage(lang, options = {}) {
     }
   });
 
+  renderLegalDocs(lang);
+
   document.querySelectorAll('.lang-switch__btn').forEach(btn => {
     const isActive = btn.dataset.lang === lang;
     btn.classList.toggle('active', isActive);
@@ -606,16 +851,147 @@ function initMobileMenu() {
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', e => {
+      if (anchor.classList.contains('js-legal-link')) return;
+
       const targetId = anchor.getAttribute('href');
       if (targetId === '#') return;
 
       const target = document.querySelector(targetId);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth' });
+      if (!target) return;
+
+      e.preventDefault();
+
+      const sectionId = targetId.slice(1);
+      if (NAV_SECTION_IDS.includes(sectionId)) {
+        setActiveNavSection(sectionId);
       }
+
+      if (anchor.classList.contains('nav__link')) {
+        anchor.classList.add('nav__link--pressed');
+        window.setTimeout(() => anchor.classList.remove('nav__link--pressed'), 220);
+        anchor.blur();
+      }
+
+      scrollToNavTarget(target);
     });
   });
+}
+
+/* --- Legal Pages (in-page tab view) --- */
+function scrollTopNow() {
+  window.scrollTo(0, 0);
+  document.documentElement.scrollTop = 0;
+  document.body.scrollTop = 0;
+
+  const inner = document.querySelector('.legal-page__inner');
+  if (inner) inner.scrollTop = 0;
+}
+
+function parseLegalHash() {
+  const hash = window.location.hash.replace('#', '');
+  if (hash === 'legal-offer') return 'offer';
+  if (hash === 'legal-privacy') return 'privacy';
+  return null;
+}
+
+function renderLegalDocs(lang) {
+  const docs = legalDocs[lang] || legalDocs.ru;
+
+  document.querySelectorAll('[data-legal-doc]').forEach(article => {
+    const key = article.dataset.legalDoc;
+    const doc = docs[key];
+    if (doc) article.innerHTML = doc.html;
+  });
+
+  bindLegalInlineLinks();
+}
+
+function bindLegalInlineLinks() {
+  document.querySelectorAll('#legalPage .js-legal-link').forEach(link => {
+    if (link.dataset.legalBound === '1') return;
+    link.dataset.legalBound = '1';
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const doc = link.dataset.legal;
+      if (doc) openLegal(doc);
+    });
+  });
+}
+
+function openLegal(doc, { updateHistory = true } = {}) {
+  const page = document.getElementById('legalPage');
+  if (!page || !legalDocs.ru[doc]) return;
+
+  activeLegalDoc = doc;
+  renderLegalDocs(currentLang);
+
+  document.querySelectorAll('[data-legal-doc]').forEach(article => {
+    article.hidden = article.dataset.legalDoc !== doc;
+  });
+
+  scrollTopNow();
+  page.hidden = false;
+  page.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('legal-open');
+
+  if (updateHistory) {
+    history.pushState({ legal: doc }, '', `#legal-${doc}`);
+  }
+}
+
+function closeLegal() {
+  const page = document.getElementById('legalPage');
+  if (!page || page.hidden) return;
+
+  activeLegalDoc = null;
+  page.hidden = true;
+  page.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('legal-open');
+
+  document.querySelectorAll('[data-legal-doc]').forEach(article => {
+    article.hidden = true;
+  });
+
+  scrollTopNow();
+}
+
+function initLegalPages() {
+  const page = document.getElementById('legalPage');
+  const closeBtn = document.getElementById('legalClose');
+  if (!page) return;
+
+  document.querySelectorAll('.js-legal-link').forEach(link => {
+    if (link.closest('#legalPage')) return;
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const doc = link.dataset.legal;
+      if (doc) openLegal(doc);
+    });
+  });
+
+  closeBtn?.addEventListener('click', () => {
+    closeLegal();
+    if (window.location.hash.startsWith('#legal-')) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  });
+
+  window.addEventListener('popstate', () => {
+    const doc = parseLegalHash();
+    if (doc) {
+      openLegal(doc, { updateHistory: false });
+      return;
+    }
+
+    if (!page.hidden) {
+      closeLegal();
+    }
+  });
+
+  const initialDoc = parseLegalHash();
+  if (initialDoc) {
+    openLegal(initialDoc, { updateHistory: false });
+  }
 }
 
 /* --- FAQ Accordion --- */
@@ -680,60 +1056,6 @@ function initHeroReveal() {
       setTimeout(() => el.classList.add('visible'), 80 + i * 70);
     });
   });
-}
-
-/* --- Hero Parallax --- */
-function initHeroParallax() {
-  if (PERF !== 'high') return;
-
-  const core = document.getElementById('heroCore');
-  const visual = document.getElementById('heroVisual');
-  if (!core || !visual) return;
-
-  let targetX = 0;
-  let targetY = 0;
-  let currentX = 0;
-  let currentY = 0;
-  let lastMove = 0;
-  let animating = false;
-  let visualRect = visual.getBoundingClientRect();
-
-  function onMove(e) {
-    lastMove = performance.now();
-    if (!animating) {
-      animating = true;
-      requestAnimationFrame(animate);
-    }
-    const cx = visualRect.left + visualRect.width / 2;
-    const cy = visualRect.top + visualRect.height / 2;
-    targetX = (e.clientX - cx) / visualRect.width * 12;
-    targetY = (e.clientY - cy) / visualRect.height * 12;
-  }
-
-  function animate(now) {
-    if (now - lastMove > 1800) {
-      animating = false;
-      currentX = 0;
-      currentY = 0;
-      core.style.transform = '';
-      return;
-    }
-
-    currentX += (targetX - currentX) * 0.08;
-    currentY += (targetY - currentY) * 0.08;
-    core.style.transform = `rotateX(${-currentY}deg) rotateY(${currentX}deg)`;
-    requestAnimationFrame(animate);
-  }
-
-  let resizeTimer;
-  window.addEventListener('resize', () => {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => {
-      visualRect = visual.getBoundingClientRect();
-    }, 150);
-  }, { passive: true });
-
-  document.addEventListener('mousemove', onMove, { passive: true });
 }
 
 /* --- Sticky CTA --- */
