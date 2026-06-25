@@ -343,6 +343,11 @@ const translations = {
 
     'legal.back': 'Back to home',
 
+    'cookie.title': 'We use cookies',
+    'cookie.text': 'This site uses cookies, browser local storage, and anonymized analytics (Vercel Analytics) to operate properly and improve the experience. By continuing, you agree. Learn more in our Privacy Policy.',
+    'cookie.accept': 'OK',
+    'cookie.policy': 'Learn more',
+
     'ctaFinal.eyebrow': 'Start now',
     'ctaFinal.title': 'Your personal route starts here',
     'ctaFinal.desc': '36 stages of depth, three modes, an Oracle that remembers your protocol, and a community of those who go deep. First step — in Telegram in minutes.',
@@ -700,6 +705,11 @@ const translations = {
 
     'legal.back': 'На главную',
 
+    'cookie.title': 'Мы используем cookies',
+    'cookie.text': 'Сайт применяет файлы cookie, локальное хранилище браузера и обезличенную аналитику (Vercel Analytics) для корректной работы и улучшения сервиса. Продолжая пользоваться сайтом, вы соглашаетесь с этим. Подробнее — в Политике конфиденциальности.',
+    'cookie.accept': 'Хорошо',
+    'cookie.policy': 'Подробнее',
+
     'ctaFinal.eyebrow': 'Начните сейчас',
     'ctaFinal.title': 'Ваш персональный маршрут начинается здесь',
     'ctaFinal.desc': '36 этапов глубины, три режима, Оракул с памятью протокола и сообщество тех, кто идёт вглубь. Первый шаг — в Telegram за пару минут.',
@@ -723,10 +733,10 @@ const legalDocs = {
     offer: {
       html: `
         <h1 class="legal-doc__title">Публичная оферта</h1>
-        <p class="legal-doc__updated">Редакция от 22 июня 2025 г.</p>
+        <p class="legal-doc__updated">Редакция от 22 июня 2026 г.</p>
         <p>Настоящий документ является официальным предложением (публичной офертой) владельца сервиса Lapis Vivus заключить договор на условиях, изложенных ниже.</p>
         <h2>1. Термины</h2>
-        <p><strong>Сервис</strong> — Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сопутствующие материалы на сайте lapis-vivus.vercel.app.</p>
+        <p><strong>Сервис</strong> — Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сопутствующие материалы на сайте lp-lend.vercel.app.</p>
         <p><strong>Пользователь</strong> — физическое лицо, использующее Сервис. <strong>Исполнитель</strong> — лицо, предоставляющее доступ к Сервису.</p>
         <h2>2. Предмет договора</h2>
         <p>Исполнитель предоставляет Пользователю доступ к информационно-аналитическим функциям Сервиса: персональный протокол, режим совместимости, Оракул, а также сопутствующие материалы и сообщество.</p>
@@ -757,14 +767,14 @@ const legalDocs = {
     privacy: {
       html: `
         <h1 class="legal-doc__title">Политика конфиденциальности</h1>
-        <p class="legal-doc__updated">Редакция от 22 июня 2025 г.</p>
-        <p>Настоящая Политика описывает порядок обработки персональных данных пользователей сервиса Lapis Vivus (Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сайт lapis-vivus.vercel.app).</p>
+        <p class="legal-doc__updated">Редакция от 22 июня 2026 г.</p>
+        <p>Настоящая Политика описывает порядок обработки персональных данных пользователей сервиса Lapis Vivus (Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сайт lp-lend.vercel.app).</p>
         <h2>1. Какие данные мы обрабатываем</h2>
         <ul>
           <li>Идентификатор Telegram и имя пользователя в мессенджере.</li>
           <li>Данные профиля для анализа: дата, время и место рождения, пол и иные сведения, которые вы добровольно указываете в боте.</li>
           <li>История запросов, этапов протокола, чатов с Оракулом и настроек внутри Сервиса.</li>
-          <li>Технические данные: язык интерфейса, сведения о сессии, обезличенная аналитика посещения сайта.</li>
+          <li>Технические данные: язык интерфейса, сведения о сессии, обезличенная аналитика посещения сайта (см. раздел 7).</li>
           <li>Платёжные метаданные при пополнении баланса (сумма, статус операции) — без хранения полных реквизитов банковских карт на нашей стороне.</li>
         </ul>
         <h2>2. Цели обработки</h2>
@@ -772,17 +782,25 @@ const legalDocs = {
           <li>Предоставление функций Сервиса и персонализация аналитики.</li>
           <li>Обработка платежей и ведение внутреннего баланса.</li>
           <li>Техническая поддержка пользователей.</li>
-          <li>Улучшение качества продукта и безопасности.</li>
+          <li>Улучшение качества продукта, безопасности и удобства сайта.</li>
         </ul>
         <h2>3. Правовые основания</h2>
         <p>Обработка осуществляется на основании согласия Пользователя, необходимости исполнения договора (оферты) и законных интересов Исполнителя по обеспечению работоспособности Сервиса.</p>
         <h2>4. Передача третьим лицам</h2>
-        <p>Данные могут передаваться платформе Telegram, платёжному провайдеру ЮKassa, а также техническим подрядчикам (хостинг, инфраструктура) исключительно для оказания услуг. Передача осуществляется при соблюдении мер защиты и в объёме, необходимом для работы Сервиса.</p>
+        <p>Данные могут передаваться платформе Telegram, платёжному провайдеру ЮKassa, а также техническим подрядчикам (хостинг Vercel, инфраструктура аналитики) исключительно для оказания услуг. Передача осуществляется при соблюдении мер защиты и в объёме, необходимом для работы Сервиса.</p>
         <h2>5. Хранение и защита</h2>
         <p>Данные хранятся столько, сколько необходимо для целей обработки или в сроки, установленные законом. Применяются организационные и технические меры защиты от несанкционированного доступа.</p>
         <h2>6. Права пользователя</h2>
-        <p>Вы вправе запросить доступ к своим данным, их уточнение, ограничение обработки или удаление, направив обращение в поддержку <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>.</p>
-        <h2>7. Изменения политики</h2>
+        <p>Вы вправе запросить доступ к своим данным, их уточнение, ограничение обработки или удаление, направив обращение в поддержку <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>. Вы также можете отозвать согласие на использование cookie и локального хранилища, очистив данные сайта в настройках браузера.</p>
+        <h2>7. Файлы cookie и локальное хранилище</h2>
+        <p>При посещении сайта мы и наши технические партнёры используют следующие технологии:</p>
+        <ul>
+          <li><strong>Локальное хранилище (localStorage)</strong> — сохранение выбранного языка интерфейса и вашего согласия на использование cookie. Эти данные хранятся только в вашем браузере и не передаются третьим лицам.</li>
+          <li><strong>Обезличенная аналитика</strong> — Vercel Web Analytics собирает агрегированную статистику посещений (просмотры страниц, тип устройства, регион) без идентификации личности и, как правило, без файлов cookie. Данные обрабатываются Vercel Inc. (США) как подрядчик по хостингу.</li>
+          <li><strong>Внешние ресурсы</strong> — шрифты загружаются с серверов Google Fonts; при этом ваш IP-адрес может передаваться Google LLC в объёме, необходимом для доставки контента.</li>
+        </ul>
+        <p>Нажимая «Хорошо» в уведомлении о cookie, вы подтверждаете согласие на использование перечисленных технологий в соответствии с настоящей Политикой. Мы не используем рекламные или отслеживающие пиксели третьих сторон без отдельного уведомления.</p>
+        <h2>8. Изменения политики</h2>
         <p>Мы можем обновлять Политику. Актуальная версия всегда доступна на этой странице. При существенных изменениях уведомим через бот или сообщество.</p>
         <p>Контакт для вопросов по данным: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
       `
@@ -792,10 +810,10 @@ const legalDocs = {
     offer: {
       html: `
         <h1 class="legal-doc__title">Public Offer Agreement</h1>
-        <p class="legal-doc__updated">Effective June 22, 2025</p>
+        <p class="legal-doc__updated">Effective June 22, 2026</p>
         <p>This document is a public offer by the owner of Lapis Vivus to enter into an agreement on the terms below.</p>
         <h2>1. Definitions</h2>
-        <p><strong>Service</strong> — the Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and related materials at lapis-vivus.vercel.app.</p>
+        <p><strong>Service</strong> — the Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and related materials at lp-lend.vercel.app.</p>
         <p><strong>User</strong> — an individual using the Service. <strong>Provider</strong> — the party granting access to the Service.</p>
         <h2>2. Subject</h2>
         <p>The Provider grants access to information and analytical features: personal protocol, compatibility mode, Oracle, related materials, and community access.</p>
@@ -826,14 +844,14 @@ const legalDocs = {
     privacy: {
       html: `
         <h1 class="legal-doc__title">Privacy Policy</h1>
-        <p class="legal-doc__updated">Effective June 22, 2025</p>
-        <p>This Policy describes how Lapis Vivus (Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and lapis-vivus.vercel.app) processes personal data.</p>
+        <p class="legal-doc__updated">Effective June 22, 2026</p>
+        <p>This Policy describes how Lapis Vivus (Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and lp-lend.vercel.app) processes personal data.</p>
         <h2>1. Data we process</h2>
         <ul>
           <li>Telegram user ID and display name.</li>
           <li>Profile data for analysis: birth date, time, place, gender, and other details you voluntarily provide in the bot.</li>
           <li>Request history, protocol stages, Oracle chats, and in-service settings.</li>
-          <li>Technical data: interface language, session info, anonymized site analytics.</li>
+          <li>Technical data: interface language, session info, anonymized site analytics (see Section 7).</li>
           <li>Payment metadata when topping up (amount, status) — we do not store full card details.</li>
         </ul>
         <h2>2. Purposes</h2>
@@ -841,17 +859,25 @@ const legalDocs = {
           <li>Providing Service features and personalizing analytics.</li>
           <li>Processing payments and maintaining in-bot balance.</li>
           <li>User support.</li>
-          <li>Improving product quality and security.</li>
+          <li>Improving product quality, security, and site usability.</li>
         </ul>
         <h2>3. Legal basis</h2>
         <p>Processing is based on User consent, contract performance (offer), and the Provider's legitimate interests in operating the Service.</p>
         <h2>4. Third parties</h2>
-        <p>Data may be shared with Telegram, YooKassa, and technical contractors (hosting, infrastructure) solely to deliver the Service, with appropriate safeguards.</p>
+        <p>Data may be shared with Telegram, YooKassa, and technical contractors (Vercel hosting, analytics infrastructure) solely to deliver the Service, with appropriate safeguards.</p>
         <h2>5. Storage and security</h2>
         <p>Data is kept as long as needed for processing purposes or as required by law. Organizational and technical measures protect against unauthorized access.</p>
         <h2>6. Your rights</h2>
-        <p>You may request access, correction, restriction, or deletion by contacting <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>.</p>
-        <h2>7. Changes</h2>
+        <p>You may request access, correction, restriction, or deletion by contacting <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a>. You may also withdraw cookie and local-storage consent by clearing this site's data in your browser settings.</p>
+        <h2>7. Cookies and local storage</h2>
+        <p>When you visit the site, we and our technical partners use the following technologies:</p>
+        <ul>
+          <li><strong>Local storage (localStorage)</strong> — saves your language preference and cookie consent. This data stays in your browser only and is not shared with third parties.</li>
+          <li><strong>Anonymized analytics</strong> — Vercel Web Analytics collects aggregated visit statistics (page views, device type, region) without identifying you and generally without cookies. Data is processed by Vercel Inc. (USA) as a hosting contractor.</li>
+          <li><strong>External resources</strong> — fonts are loaded from Google Fonts servers; your IP address may be transmitted to Google LLC as needed to deliver content.</li>
+        </ul>
+        <p>By clicking "OK" in the cookie notice, you confirm consent to these technologies under this Policy. We do not use third-party advertising or tracking pixels without separate notice.</p>
+        <h2>8. Changes</h2>
         <p>We may update this Policy. The current version is always available here. Material changes may be announced via the bot or community.</p>
         <p>Data inquiries: <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer">@nikitok_m</a></p>
       `
@@ -952,9 +978,43 @@ function scrollToNavTarget(el) {
   });
 }
 
+/* --- Cookie Consent --- */
+const COOKIE_CONSENT_KEY = 'lapis-cookie-consent';
+
+function initCookieConsent() {
+  const banner = document.getElementById('cookieBanner');
+  const acceptBtn = document.getElementById('cookieAccept');
+  if (!banner || !acceptBtn) return;
+
+  if (localStorage.getItem(COOKIE_CONSENT_KEY) === '1') {
+    banner.hidden = true;
+    banner.setAttribute('aria-hidden', 'true');
+    return;
+  }
+
+  banner.hidden = false;
+  banner.setAttribute('aria-hidden', 'false');
+
+  requestAnimationFrame(() => {
+    document.body.classList.add('cookie-banner-open');
+  });
+
+  acceptBtn.addEventListener('click', () => {
+    localStorage.setItem(COOKIE_CONSENT_KEY, '1');
+    banner.classList.add('cookie-banner--dismissed');
+    document.body.classList.remove('cookie-banner-open');
+
+    window.setTimeout(() => {
+      banner.hidden = true;
+      banner.setAttribute('aria-hidden', 'true');
+    }, 480);
+  });
+}
+
 /* --- DOM Ready --- */
 document.addEventListener('DOMContentLoaded', async () => {
   await initLanguage();
+  initCookieConsent();
   initMobileMenu();
   initSmoothScroll();
   initFAQ();

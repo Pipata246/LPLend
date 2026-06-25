@@ -3130,6 +3130,178 @@ body.legal-open .sticky-cta {
 }
 
 /* ============================================
+   COOKIE CONSENT BANNER
+   ============================================ */
+
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1300;
+  padding: 0 16px calc(16px + env(safe-area-inset-bottom));
+  pointer-events: none;
+  transform: translateY(110%);
+  opacity: 0;
+  transition:
+    transform 0.55s var(--ease-luxe),
+    opacity 0.45s var(--ease-smooth);
+}
+
+.cookie-banner:not([hidden]) {
+  pointer-events: auto;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cookie-banner--dismissed {
+  transform: translateY(110%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cookie-banner__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 18px 22px;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(246, 210, 122, 0.22);
+  background:
+    linear-gradient(135deg, rgba(143, 77, 255, 0.1) 0%, rgba(12, 7, 24, 0.94) 42%, rgba(10, 6, 20, 0.97) 100%);
+  box-shadow:
+    0 -8px 48px rgba(0, 0, 0, 0.42),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+    0 0 40px rgba(143, 77, 255, 0.12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  overflow: hidden;
+}
+
+.cookie-banner__glow {
+  position: absolute;
+  inset: auto -20% -60% -20%;
+  height: 120px;
+  background: radial-gradient(ellipse at center, rgba(246, 210, 122, 0.16) 0%, transparent 68%);
+  pointer-events: none;
+}
+
+.cookie-banner__icon {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  color: var(--gold-1);
+  background: rgba(246, 210, 122, 0.08);
+  border: 1px solid rgba(246, 210, 122, 0.2);
+  box-shadow: 0 0 24px rgba(246, 210, 122, 0.14);
+}
+
+.cookie-banner__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.cookie-banner__content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cookie-banner__title {
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+.cookie-banner__text {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.cookie-banner__actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.cookie-banner__link {
+  color: var(--gold-soft);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+  transition: color 0.35s var(--ease-luxe);
+}
+
+.cookie-banner__link:hover {
+  color: var(--gold-1);
+}
+
+.cookie-banner__btn {
+  min-width: 118px;
+  padding: 11px 22px;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+body.cookie-banner-open {
+  padding-bottom: calc(108px + env(safe-area-inset-bottom));
+}
+
+@media (max-width: 760px) {
+  .cookie-banner__inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px 16px 14px;
+  }
+
+  .cookie-banner__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cookie-banner__actions {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .cookie-banner__btn {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  body.cookie-banner-open {
+    padding-bottom: calc(168px + env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cookie-banner {
+    transition: none;
+  }
+}
+
+html.perf-low .cookie-banner__inner {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* ============================================
    REVEAL MOTION SYSTEM
    ============================================ */
 
