@@ -8,7 +8,7 @@
   <meta name="keywords" content="Lapis Vivus, персональный протокол, анализ по дате рождения, Telegram бот, совместимость пары, натальная карта">
   <meta name="author" content="Lapis Vivus">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://lapis-vivus.vercel.app/">
+  <link rel="canonical" href="https://lp-lend.vercel.app/">
 
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.jpg" type="image/jpeg" sizes="32x32">
@@ -19,18 +19,22 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Lapis Vivus — персональный протокол глубинного анализа · Telegram-бот">
   <meta property="og:description" content="36 этапов · 3 режима · Оракул · сообщество · поддержка 24/7. Ваш код личности — поэтапно и в глубину.">
-  <meta property="og:url" content="https://lapis-vivus.vercel.app/">
+  <meta property="og:url" content="https://lp-lend.vercel.app/">
   <meta property="og:site_name" content="Lapis Vivus">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:locale:alternate" content="en_US">
-  <meta property="og:image" content="https://lapis-vivus.vercel.app/img/favicon.jpg">
+  <meta property="og:image" content="https://lp-lend.vercel.app/img/favicon.jpg">
+  <meta property="og:image:secure_url" content="https://lp-lend.vercel.app/img/favicon.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="640">
+  <meta property="og:image:height" content="640">
   <meta property="og:image:alt" content="Lapis Vivus">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Lapis Vivus — персональный протокол глубинного анализа · Telegram-бот">
   <meta name="twitter:description" content="36 этапов глубины, три режима, Оракул и сообщество. Поддержка 24/7 — всегда на вашей стороне.">
-  <meta name="twitter:image" content="https://lapis-vivus.vercel.app/img/favicon.jpg">
+  <meta name="twitter:image" content="https://lp-lend.vercel.app/img/favicon.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +67,7 @@
     "applicationCategory": "LifestyleApplication",
     "operatingSystem": "Telegram",
     "description": "Telegram-бот персонального глубинного анализа по профилю рождения — протокол, совместимость пары, Оракул.",
-    "url": "https://lapis-vivus.vercel.app/",
+    "url": "https://lp-lend.vercel.app/",
     "offers": {
       "@type": "Offer",
       "price": "50",
@@ -135,6 +139,7 @@
           <li><a href="#how-it-works" class="nav__link" data-i18n="nav.howItWorks">Как начать</a></li>
           <li><a href="#protocol" class="nav__link" data-i18n="nav.protocol">Экосистема</a></li>
           <li><a href="#payment" class="nav__link" data-i18n="nav.payment">Тарифы</a></li>
+          <li><a href="#investors" class="nav__link" data-i18n="nav.investors">Инвесторам</a></li>
           <li><a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
           <li class="nav__cta-wrap">
             <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block nav__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
@@ -157,6 +162,8 @@
       </div>
     </div>
   </header>
+
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
 
   <main>
 
@@ -872,6 +879,87 @@
         </div>
 
         <p class="payment__note reveal" data-i18n="payment.note">Пополнение через ЮKassa · счёт действует 10 минут · тариф выбирается и управляется в боте</p>
+      </div>
+    </section>
+
+    <!-- Investors -->
+    <section class="section investors" id="investors">
+      <div class="investors__bg" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__header reveal">
+          <p class="section__eyebrow" data-i18n="investors.eyebrow">Для инвесторов</p>
+          <h2 class="section__title" data-i18n="investors.title">Возможность войти на ранней стадии</h2>
+          <p class="section__subtitle section__subtitle--center" data-i18n="investors.subtitle">Lapis Vivus — премиальная AI-экосистема в Telegram: подписка, накопительный профиль пользователя и три режима монетизации в одном продукте.</p>
+        </header>
+
+        <div class="investors__deck glass reveal">
+          <div class="investors__header">
+            <h3 class="investors__title" data-i18n="investors.deckTitle">Продукт, который уже работает и масштабируется</h3>
+            <p class="investors__lead" data-i18n="investors.lead">Мы строим не разовый «астро-чат», а персональный протокол глубинного анализа: 36 этапов, совместимость пары, Оракул с памятью маршрута, закрытое сообщество и поддержка 24/7. Пользователь остаётся внутри экосистемы — профиль, история и LTV растут с каждой сессией.</p>
+          </div>
+
+          <div class="investors__grid">
+            <article class="investors__metric reveal reveal--soft">
+              <span class="investors__metric-label" data-i18n="investors.m1.label">Канал дистрибуции</span>
+              <span class="investors__metric-value" data-i18n="investors.m1.value">Telegram-native</span>
+              <p class="investors__metric-desc" data-i18n="investors.m1.desc">Без App Store и долгого онбординга — продукт там, где уже есть аудитория. RU / EN из коробки.</p>
+            </article>
+            <article class="investors__metric reveal reveal--soft reveal--delay">
+              <span class="investors__metric-label" data-i18n="investors.m2.label">Монетизация</span>
+              <span class="investors__metric-value" data-i18n="investors.m2.value">Подписка + баланс</span>
+              <p class="investors__metric-desc" data-i18n="investors.m2.desc">Три тарифа (Premium / Pro / Ultimate), оплата через ЮKassa, активация сразу после пополнения.</p>
+            </article>
+            <article class="investors__metric reveal reveal--soft reveal--delay-2">
+              <span class="investors__metric-label" data-i18n="investors.m3.label">Глубина продукта</span>
+              <span class="investors__metric-value" data-i18n="investors.m3.value">36 этапов · 3 режима</span>
+              <p class="investors__metric-desc" data-i18n="investors.m3.desc">Протокол, совместимость и Оракул — не одноразовый ответ, а накапливаемый маршрут в профиле.</p>
+            </article>
+            <article class="investors__metric reveal reveal--soft reveal--delay-3">
+              <span class="investors__metric-label" data-i18n="investors.m4.label">Удержание</span>
+              <span class="investors__metric-value" data-i18n="investors.m4.value">Сообщество 24/7</span>
+              <p class="investors__metric-desc" data-i18n="investors.m4.desc">Закрытая среда, живые материалы и команда поддержки — retention поверх аналитики.</p>
+            </article>
+          </div>
+
+          <div class="investors__block reveal reveal--soft">
+            <h4 class="investors__block-title" data-i18n="investors.why.title">Почему это интересно инвестору</h4>
+            <ul class="investors__points">
+              <li data-i18n="investors.why.l1">Премиум-позиционирование — глубина и структура вместо массового «гороскопа в чате»</li>
+              <li data-i18n="investors.why.l2">AI с контекстом — Оракул опирается на профиль и пройденные этапы, а не на шаблоны</li>
+              <li data-i18n="investors.why.l3">Повторяющаяся выручка — подписочная модель с понятными уровнями и апсейлом</li>
+              <li data-i18n="investors.why.l4">Низкий CAC-канал — органика через Telegram, сообщество и сарафан внутри ниши</li>
+              <li data-i18n="investors.why.l5">Масштаб без приложения — один бот, единый профиль, расширение на EN и смежные рынки</li>
+            </ul>
+          </div>
+
+          <div class="investors__block reveal reveal--soft reveal--delay">
+            <h4 class="investors__block-title" data-i18n="investors.roadmap.title">Дорожная карта</h4>
+            <div class="roadmap__track">
+              <article class="roadmap__item">
+                <span class="roadmap__year" data-i18n="investors.roadmap.y1.year">2025</span>
+                <span class="roadmap__milestone" data-i18n="investors.roadmap.y1.text">MVP бота: протокол, профиль рождения, оплата и базовые сценарии</span>
+              </article>
+              <article class="roadmap__item">
+                <span class="roadmap__year" data-i18n="investors.roadmap.y2.year">2026</span>
+                <span class="roadmap__milestone" data-i18n="investors.roadmap.y2.text">Тарифы, Оракул, совместимость, сообщество и поддержка 24/7</span>
+              </article>
+              <article class="roadmap__item">
+                <span class="roadmap__year" data-i18n="investors.roadmap.y3.year">2026+</span>
+                <span class="roadmap__milestone" data-i18n="investors.roadmap.y3.text">Партнёрская сеть, B2B-интеграции, расширение географии и продуктовой линейки</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="investors__contact glass reveal reveal--soft reveal--delay-2">
+            <p class="investors__contact-label" data-i18n="investors.contact.label">Для питча, deck и встречи с основателем</p>
+            <a href="https://t.me/nikitok_m" class="investors__contact-handle" target="_blank" rel="noopener noreferrer">@nikitok_m</a>
+            <p class="investors__contact-note" data-i18n="investors.contact.note">Напишите в Telegram — пришлём материалы, метрики и обсудим формат участия</p>
+            <a href="https://t.me/nikitok_m" class="btn btn--primary btn--lg btn--glow investors__cta" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="investors.cta">Связаться в Telegram</span>
+              <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 

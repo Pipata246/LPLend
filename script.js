@@ -10,6 +10,7 @@ const translations = {
     'nav.community': 'Community',
     'nav.howItWorks': 'How to start',
     'nav.payment': 'Plans',
+    'nav.investors': 'Investors',
     'nav.faq': 'FAQ',
     'cta.openBot': 'Open bot',
     'cta.startNow': 'Start now',
@@ -242,6 +243,40 @@ const translations = {
     'payment.cta': 'Choose in bot',
     'payment.note': 'Top-up via YooKassa · invoice valid 10 minutes · plan selected and managed in the bot',
 
+    'investors.eyebrow': 'For investors',
+    'investors.title': 'Early-stage opportunity',
+    'investors.subtitle': 'Lapis Vivus is a premium AI ecosystem in Telegram: subscription revenue, a growing user profile, and three monetized modes in one product.',
+    'investors.deckTitle': 'A product that already works and scales',
+    'investors.lead': 'We are not building a one-off “astro chat” — but a personal deep-analysis protocol: 36 stages, pair compatibility, an Oracle with route memory, a private community, and 24/7 support. Users stay inside the ecosystem — profile, history, and LTV grow with every session.',
+    'investors.m1.label': 'Distribution',
+    'investors.m1.value': 'Telegram-native',
+    'investors.m1.desc': 'No App Store friction — the product lives where the audience already is. RU / EN out of the box.',
+    'investors.m2.label': 'Monetization',
+    'investors.m2.value': 'Subscription + balance',
+    'investors.m2.desc': 'Three plans (Premium / Pro / Ultimate), YooKassa payments, instant activation after top-up.',
+    'investors.m3.label': 'Product depth',
+    'investors.m3.value': '36 stages · 3 modes',
+    'investors.m3.desc': 'Protocol, compatibility, and Oracle — not a one-shot answer, but an accumulating route in the profile.',
+    'investors.m4.label': 'Retention',
+    'investors.m4.value': 'Community 24/7',
+    'investors.m4.desc': 'Private space, live materials, and support team — retention on top of analytics.',
+    'investors.why.title': 'Why it matters for investors',
+    'investors.why.l1': 'Premium positioning — depth and structure instead of mass-market “horoscope chat”',
+    'investors.why.l2': 'Context-aware AI — Oracle uses profile and completed stages, not templates',
+    'investors.why.l3': 'Recurring revenue — subscription model with clear tiers and upsell path',
+    'investors.why.l4': 'Low-CAC channel — organic growth via Telegram, community, and niche word of mouth',
+    'investors.why.l5': 'Scale without an app — one bot, one profile, expansion to EN and adjacent markets',
+    'investors.roadmap.title': 'Roadmap',
+    'investors.roadmap.y1.year': '2025',
+    'investors.roadmap.y1.text': 'Bot MVP: protocol, birth profile, payments, and core scenarios',
+    'investors.roadmap.y2.year': '2026',
+    'investors.roadmap.y2.text': 'Plans, Oracle, compatibility, community, and 24/7 support',
+    'investors.roadmap.y3.year': '2026+',
+    'investors.roadmap.y3.text': 'Partner network, B2B integrations, geographic and product expansion',
+    'investors.contact.label': 'For pitch deck and founder meetings',
+    'investors.contact.note': 'Message on Telegram — we will share materials, metrics, and discuss participation format',
+    'investors.cta': 'Contact on Telegram',
+
     'faq.eyebrow': 'FAQ',
     'faq.title': 'Common questions',
     'faq.subtitle': 'Answers about the community, modes, plans, and support — clear and to the point.',
@@ -332,6 +367,7 @@ const translations = {
     'nav.protocol': 'Экосистема',
     'nav.howItWorks': 'Как начать',
     'nav.payment': 'Тарифы',
+    'nav.investors': 'Инвесторам',
     'nav.faq': 'FAQ',
     'cta.openBot': 'Открыть бот',
     'cta.startNow': 'Начать сейчас',
@@ -563,6 +599,40 @@ const translations = {
     'payment.tier3.f3.desc': 'Диалог без потолка: задавайте вопросы когда угодно — Оракул всегда опирается на ваш профиль и пройденный маршрут.',
     'payment.cta': 'Выбрать в боте',
     'payment.note': 'Пополнение через ЮKassa · счёт действует 10 минут · тариф выбирается и управляется в боте',
+
+    'investors.eyebrow': 'Для инвесторов',
+    'investors.title': 'Возможность войти на ранней стадии',
+    'investors.subtitle': 'Lapis Vivus — премиальная AI-экосистема в Telegram: подписка, накопительный профиль пользователя и три режима монетизации в одном продукте.',
+    'investors.deckTitle': 'Продукт, который уже работает и масштабируется',
+    'investors.lead': 'Мы строим не разовый «астро-чат», а персональный протокол глубинного анализа: 36 этапов, совместимость пары, Оракул с памятью маршрута, закрытое сообщество и поддержка 24/7. Пользователь остаётся внутри экосистемы — профиль, история и LTV растут с каждой сессией.',
+    'investors.m1.label': 'Канал дистрибуции',
+    'investors.m1.value': 'Telegram-native',
+    'investors.m1.desc': 'Без App Store и долгого онбординга — продукт там, где уже есть аудитория. RU / EN из коробки.',
+    'investors.m2.label': 'Монетизация',
+    'investors.m2.value': 'Подписка + баланс',
+    'investors.m2.desc': 'Три тарифа (Premium / Pro / Ultimate), оплата через ЮKassa, активация сразу после пополнения.',
+    'investors.m3.label': 'Глубина продукта',
+    'investors.m3.value': '36 этапов · 3 режима',
+    'investors.m3.desc': 'Протокол, совместимость и Оракул — не одноразовый ответ, а накапливаемый маршрут в профиле.',
+    'investors.m4.label': 'Удержание',
+    'investors.m4.value': 'Сообщество 24/7',
+    'investors.m4.desc': 'Закрытая среда, живые материалы и команда поддержки — retention поверх аналитики.',
+    'investors.why.title': 'Почему это интересно инвестору',
+    'investors.why.l1': 'Премиум-позиционирование — глубина и структура вместо массового «гороскопа в чате»',
+    'investors.why.l2': 'AI с контекстом — Оракул опирается на профиль и пройденные этапы, а не на шаблоны',
+    'investors.why.l3': 'Повторяющаяся выручка — подписочная модель с понятными уровнями и апсейлом',
+    'investors.why.l4': 'Низкий CAC-канал — органика через Telegram, сообщество и сарафан внутри ниши',
+    'investors.why.l5': 'Масштаб без приложения — один бот, единый профиль, расширение на EN и смежные рынки',
+    'investors.roadmap.title': 'Дорожная карта',
+    'investors.roadmap.y1.year': '2025',
+    'investors.roadmap.y1.text': 'MVP бота: протокол, профиль рождения, оплата и базовые сценарии',
+    'investors.roadmap.y2.year': '2026',
+    'investors.roadmap.y2.text': 'Тарифы, Оракул, совместимость, сообщество и поддержка 24/7',
+    'investors.roadmap.y3.year': '2026+',
+    'investors.roadmap.y3.text': 'Партнёрская сеть, B2B-интеграции, расширение географии и продуктовой линейки',
+    'investors.contact.label': 'Для питча, deck и встречи с основателем',
+    'investors.contact.note': 'Напишите в Telegram — пришлём материалы, метрики и обсудим формат участия',
+    'investors.cta': 'Связаться в Telegram',
 
     'faq.eyebrow': 'FAQ',
     'faq.title': 'Частые вопросы',
@@ -809,6 +879,7 @@ const NAV_SECTION_IDS = [
   'how-it-works',
   'protocol',
   'payment',
+  'investors',
   'faq'
 ];
 
@@ -1045,25 +1116,38 @@ function setLanguage(lang, options = {}) {
 function initMobileMenu() {
   const burger = document.getElementById('burger');
   const nav = document.getElementById('nav');
+  const backdrop = document.getElementById('navBackdrop');
 
   if (!burger || !nav) return;
 
-  burger.addEventListener('click', () => {
-    const isOpen = nav.classList.toggle('open');
+  function setMenuOpen(isOpen) {
+    nav.classList.toggle('open', isOpen);
     burger.classList.toggle('active', isOpen);
     burger.setAttribute('aria-expanded', isOpen);
     document.body.classList.toggle('nav-open', isOpen);
     document.body.style.overflow = isOpen ? 'hidden' : '';
+    if (backdrop) {
+      backdrop.classList.toggle('is-open', isOpen);
+      backdrop.setAttribute('aria-hidden', !isOpen);
+    }
+  }
+
+  burger.addEventListener('click', () => {
+    setMenuOpen(!nav.classList.contains('open'));
+  });
+
+  if (backdrop) {
+    backdrop.addEventListener('click', () => setMenuOpen(false));
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && nav.classList.contains('open')) {
+      setMenuOpen(false);
+    }
   });
 
   nav.querySelectorAll('.nav__link, .nav__cta').forEach(link => {
-    link.addEventListener('click', () => {
-      nav.classList.remove('open');
-      burger.classList.remove('active');
-      burger.setAttribute('aria-expanded', 'false');
-      document.body.classList.remove('nav-open');
-      document.body.style.overflow = '';
-    });
+    link.addEventListener('click', () => setMenuOpen(false));
   });
 }
 
@@ -1261,22 +1345,20 @@ function initFAQ() {
 /* --- Scroll Reveal --- */
 function initScrollReveal() {
   const reveals = document.querySelectorAll('.reveal');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  if (PERF === 'low') {
+  if (PERF === 'low' || reducedMotion) {
     reveals.forEach(el => el.classList.add('visible'));
     return;
   }
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
+      entry.target.classList.toggle('visible', entry.isIntersecting);
     });
   }, {
-    threshold: 0.12,
-    rootMargin: '0px 0px -40px 0px'
+    threshold: [0, 0.14],
+    rootMargin: '0px 0px -5% 0px'
   });
 
   reveals.forEach(el => {
@@ -1288,13 +1370,13 @@ function initScrollReveal() {
 /* --- Hero Entrance --- */
 function initHeroReveal() {
   const heroReveals = document.querySelectorAll('.hero .reveal');
-  if (PERF === 'low') {
+  if (PERF === 'low' || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     heroReveals.forEach(el => el.classList.add('visible'));
     return;
   }
   requestAnimationFrame(() => {
     heroReveals.forEach((el, i) => {
-      setTimeout(() => el.classList.add('visible'), 80 + i * 70);
+      setTimeout(() => el.classList.add('visible'), 140 + i * 95);
     });
   });
 }
