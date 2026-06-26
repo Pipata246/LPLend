@@ -333,8 +333,8 @@
           <li><a href="#how-it-works" class="nav__link" data-i18n="nav.howItWorks">Как начать</a></li>
           <li><a href="#protocol" class="nav__link" data-i18n="nav.protocol">Экосистема</a></li>
           <li><a href="#payment" class="nav__link" data-i18n="nav.payment">Тарифы</a></li>
-          <li><a href="#investors" class="nav__link" data-i18n="nav.investors">Инвесторам</a></li>
           <li><a href="#faq" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="investors.html" class="nav__link nav__link--page" data-i18n="nav.investors">Инвесторам</a></li>
           <li class="nav__cta-wrap">
             <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block nav__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
           </li>
@@ -387,10 +387,11 @@
               <span data-i18n="hero.ctaPrimary">Начать в боте</span>
               <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a href="#services" class="btn btn--ghost btn--lg" data-i18n="hero.ctaSecondary">Смотреть режимы</a>
+            <a href="https://t.me/LapisVivus_bot?start=free" class="btn btn--ghost btn--lg" data-i18n="hero.ctaFree" target="_blank" rel="noopener noreferrer">Попробовать бесплатно</a>
+            <a href="#services" class="btn btn--ghost btn--lg hero__actions-link" data-i18n="hero.ctaSecondary">Смотреть режимы</a>
           </div>
 
-          <p class="hero__risk reveal reveal--delay-3" data-i18n="hero.risk">Премиум-формат · Поддержка на вашей стороне · RU / EN</p>
+          <p class="hero__risk reveal reveal--delay-3" data-i18n="hero.freeNote">Первый этап протокола — бесплатно в боте</p>
         </div>
         </div>
       </section>
@@ -925,8 +926,15 @@
         <header class="section__header reveal">
           <p class="section__eyebrow" data-i18n="payment.eyebrow">Тарифы</p>
           <h2 class="section__title" data-i18n="payment.title">Выберите глубину под задачу</h2>
-          <p class="section__subtitle section__subtitle--center" data-i18n="payment.subtitle">Три уровня доступа в боте — от старта до безлимитного Оракула. Оплата через ЮKassa, активация сразу после пополнения.</p>
+          <p class="section__subtitle section__subtitle--center" data-i18n="payment.subtitle">Три уровня доступа в боте — от старта до безлимитного Оракула. Оплата через ЮKassa, доступ сразу после оформления подписки.</p>
         </header>
+
+        <div class="payment__tools reveal">
+          <a href="https://t.me/LapisVivus_bot?start=free" class="payment__tool glass payment__tool--solo" target="_blank" rel="noopener noreferrer">
+            <span class="payment__tool-label" data-i18n="payment.freePromo">Хотите попробовать до оплаты?</span>
+            <span class="payment__tool-cta" data-i18n="payment.freeCta">Первый этап — бесплатно →</span>
+          </a>
+        </div>
 
         <div class="pricing__grid">
           <article class="pricing-card glass reveal">
@@ -1073,83 +1081,6 @@
         </div>
 
         <p class="payment__note reveal" data-i18n="payment.note">Пополнение через ЮKassa · счёт действует 10 минут · тариф выбирается и управляется в боте</p>
-      </div>
-    </section>
-
-    <!-- Investors -->
-    <section class="section investors" id="investors">
-      <div class="container">
-        <header class="section__header reveal">
-          <p class="section__eyebrow" data-i18n="investors.eyebrow">Для инвесторов</p>
-          <h2 class="section__title" data-i18n="investors.title">Возможность войти на ранней стадии</h2>
-          <p class="section__subtitle section__subtitle--center" data-i18n="investors.subtitle">Lapis Vivus — премиальная AI-экосистема в Telegram: подписка, накопительный профиль пользователя и три режима монетизации в одном продукте.</p>
-        </header>
-
-        <div class="investors__deck glass reveal">
-          <div class="investors__grid">
-            <article class="investors__metric">
-              <span class="investors__metric-label" data-i18n="investors.m1.label">Канал дистрибуции</span>
-              <span class="investors__metric-value" data-i18n="investors.m1.value">Telegram-native</span>
-              <p class="investors__metric-desc" data-i18n="investors.m1.desc">Без App Store и долгого онбординга — продукт там, где уже есть аудитория. RU / EN из коробки.</p>
-            </article>
-            <article class="investors__metric">
-              <span class="investors__metric-label" data-i18n="investors.m2.label">Подписка</span>
-              <span class="investors__metric-value" data-i18n="investors.m2.value">Premium / Pro / Ultimate</span>
-              <p class="investors__metric-desc" data-i18n="investors.m2.desc">Три тарифа, оплата через ЮKassa, доступ активируется сразу после оформления подписки.</p>
-            </article>
-            <article class="investors__metric">
-              <span class="investors__metric-label" data-i18n="investors.m3.label">Глубина продукта</span>
-              <span class="investors__metric-value" data-i18n="investors.m3.value">36 этапов · 3 режима</span>
-              <p class="investors__metric-desc" data-i18n="investors.m3.desc">Протокол, совместимость и Оракул — не одноразовый ответ, а накапливаемый маршрут в профиле.</p>
-            </article>
-            <article class="investors__metric">
-              <span class="investors__metric-label" data-i18n="investors.m4.label">Удержание</span>
-              <span class="investors__metric-value" data-i18n="investors.m4.value">Сообщество 24/7</span>
-              <p class="investors__metric-desc" data-i18n="investors.m4.desc">Закрытая среда, живые материалы и команда поддержки — retention поверх аналитики.</p>
-            </article>
-          </div>
-
-          <div class="investors__layout">
-            <div class="investors__block">
-              <h4 class="investors__block-title" data-i18n="investors.why.title">Почему это интересно инвестору</h4>
-              <ul class="investors__points">
-                <li data-i18n="investors.why.l1">Премиум-позиционирование — глубина и структура вместо массового «гороскопа в чате»</li>
-                <li data-i18n="investors.why.l2">AI с контекстом — Оракул опирается на профиль и пройденные этапы, а не на шаблоны</li>
-                <li data-i18n="investors.why.l3">Повторяющаяся выручка — подписочная модель с понятными уровнями и апсейлом</li>
-                <li data-i18n="investors.why.l4">Низкий CAC-канал — органика через Telegram, сообщество и сарафан внутри ниши</li>
-                <li data-i18n="investors.why.l5">Масштаб без приложения — один бот, единый профиль, расширение на EN и смежные рынки</li>
-              </ul>
-            </div>
-
-            <div class="investors__block">
-              <h4 class="investors__block-title" data-i18n="investors.roadmap.title">Дорожная карта</h4>
-              <div class="roadmap__track">
-                <article class="roadmap__item">
-                  <span class="roadmap__year" data-i18n="investors.roadmap.y1.year">2025</span>
-                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y1.text">MVP бота: протокол, профиль рождения, оплата и базовые сценарии</span>
-                </article>
-                <article class="roadmap__item">
-                  <span class="roadmap__year" data-i18n="investors.roadmap.y2.year">2026</span>
-                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y2.text">Тарифы, Оракул, совместимость, сообщество и поддержка 24/7</span>
-                </article>
-                <article class="roadmap__item">
-                  <span class="roadmap__year" data-i18n="investors.roadmap.y3.year">2026+</span>
-                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y3.text">Партнёрская сеть, B2B-интеграции, расширение географии и продуктовой линейки</span>
-                </article>
-              </div>
-            </div>
-          </div>
-
-          <div class="investors__contact">
-            <p class="investors__contact-label" data-i18n="investors.contact.label">Для питча, deck и встречи с основателем</p>
-            <a href="https://t.me/nikitok_m" class="investors__contact-handle" target="_blank" rel="noopener noreferrer">@nikitok_m</a>
-            <p class="investors__contact-note" data-i18n="investors.contact.note">Напишите в Telegram — пришлём материалы, метрики и обсудим формат участия</p>
-            <a href="https://t.me/nikitok_m" class="btn btn--primary btn--glow investors__cta" target="_blank" rel="noopener noreferrer">
-              <span data-i18n="investors.cta">Связаться в Telegram</span>
-              <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -1397,6 +1328,7 @@
                   <span data-i18n="ctaFinal.ctaBot">Начать в боте</span>
                   <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </a>
+                <a href="https://t.me/LapisVivus_bot?start=free" class="btn btn--ghost btn--lg" data-i18n="ctaFinal.ctaFree" target="_blank" rel="noopener noreferrer">Попробовать бесплатно</a>
                 <a href="https://t.me/LapisVivus" class="btn btn--ghost btn--lg" data-i18n="ctaFinal.ctaCommunity" target="_blank" rel="noopener noreferrer">Вступить в сообщество</a>
               </div>
             </div>
@@ -1422,10 +1354,12 @@
         <p class="footer__tagline" data-i18n="footer.tagline">Персональный протокол глубинного анализа</p>
       </div>
       <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="https://t.me/LapisVivus_bot?start=free" target="_blank" rel="noopener noreferrer" data-i18n="footer.tryFree">Попробовать бесплатно</a>
         <a href="#legal-offer" class="js-legal-link" data-legal="offer" data-i18n="footer.terms">Оферта</a>
         <a href="#legal-privacy" class="js-legal-link" data-legal="privacy" data-i18n="footer.privacy">Политика</a>
         <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer" data-i18n="footer.support">Поддержка</a>
         <a href="https://t.me/LapisVivus" target="_blank" rel="noopener noreferrer" data-i18n="footer.community">Сообщество</a>
+        <a href="investors.html" data-i18n="footer.investors">Инвесторам</a>
       </nav>
       <p class="footer__disclaimer" data-i18n="footer.disclaimer">Материалы носят информационно-аналитический характер. Не являются медицинской, юридической, финансовой или иной профессиональной консультацией. Решения пользователь принимает самостоятельно.</p>
       <p class="footer__copy">&copy; <span id="year"></span> Lapis Vivus. <span data-i18n="footer.rights">Все права защищены.</span></p>

@@ -10,8 +10,8 @@ const translations = {
     'nav.community': 'Community',
     'nav.howItWorks': 'How to start',
     'nav.payment': 'Plans',
-    'nav.investors': 'Investors',
     'nav.faq': 'FAQ',
+    'nav.investors': 'Investors',
     'cta.openBot': 'Open bot',
     'cta.startNow': 'Start now',
 
@@ -26,7 +26,9 @@ const translations = {
     'hero.chip2': 'Community & 24/7 support',
     'hero.chip3': '36 stages · 5 parts',
     'hero.ctaPrimary': 'Start in bot',
+    'hero.ctaFree': 'Try for free',
     'hero.ctaSecondary': 'See modes',
+    'hero.freeNote': 'First protocol stage — free in the bot',
     'hero.risk': 'Premium format · Support on your side · RU / EN',
     'hero.suiteLabel': 'Three modes — one ecosystem',
     'hero.suite1.title': 'Protocol',
@@ -204,7 +206,7 @@ const translations = {
 
     'payment.eyebrow': 'Plans',
     'payment.title': 'Choose the depth for your task',
-    'payment.subtitle': 'Three access levels in the bot — from starter to unlimited Oracle. Pay via YooKassa, activated right after top-up.',
+    'payment.subtitle': 'Three access levels in the bot — from starter to unlimited Oracle. YooKassa checkout, access right after subscribing.',
     'payment.includes': "What's included",
     'payment.tier1.tagline': 'Your entry point',
     'payment.tier1.name': 'Premium',
@@ -338,10 +340,16 @@ const translations = {
     'footer.terms': 'Offer',
     'footer.support': 'Support',
     'footer.community': 'Community',
+    'footer.investors': 'Investors',
+    'footer.tryFree': 'Try for free',
     'footer.disclaimer': 'Materials are for information and analysis only. Not medical, legal, financial, or other professional advice. You make your own decisions.',
     'footer.rights': 'All rights reserved.',
 
     'legal.back': 'Back to home',
+    'subpage.back': 'Back to home',
+
+    'payment.freePromo': 'Want to try before paying?',
+    'payment.freeCta': 'First stage — free',
 
     'cookie.title': 'We use cookies',
     'cookie.text': 'This site uses cookies, browser local storage, and anonymized analytics (Vercel Analytics) to operate properly and improve the experience. By continuing, you agree. Learn more in our Privacy Policy.',
@@ -362,6 +370,7 @@ const translations = {
     'ctaFinal.p3': 'RU / EN · YooKassa · instant activation',
     'ctaFinal.ctaCommunity': 'Join community',
     'ctaFinal.ctaBot': 'Start in bot',
+    'ctaFinal.ctaFree': 'Try for free',
     'ctaFinal.note': '24/7 support · @nikitok_m · RU / EN in bot'
   },
 
@@ -372,8 +381,8 @@ const translations = {
     'nav.protocol': 'Экосистема',
     'nav.howItWorks': 'Как начать',
     'nav.payment': 'Тарифы',
-    'nav.investors': 'Инвесторам',
     'nav.faq': 'FAQ',
+    'nav.investors': 'Инвесторам',
     'cta.openBot': 'Открыть бот',
     'cta.startNow': 'Начать сейчас',
 
@@ -388,7 +397,9 @@ const translations = {
     'hero.chip2': 'Сообщество и поддержка 24/7',
     'hero.chip3': '36 этапов · 5 частей',
     'hero.ctaPrimary': 'Начать в боте',
+    'hero.ctaFree': 'Попробовать бесплатно',
     'hero.ctaSecondary': 'Смотреть режимы',
+    'hero.freeNote': 'Первый этап протокола — бесплатно в боте',
     'hero.risk': 'Премиум-формат · Поддержка на вашей стороне · RU / EN',
     'hero.suiteLabel': 'Три режима — одна экосистема',
     'hero.suite1.title': 'Протокол',
@@ -566,7 +577,7 @@ const translations = {
 
     'payment.eyebrow': 'Тарифы',
     'payment.title': 'Выберите глубину под задачу',
-    'payment.subtitle': 'Три уровня доступа в боте — от старта до безлимитного Оракула. Оплата через ЮKassa, активация сразу после пополнения.',
+    'payment.subtitle': 'Три уровня доступа в боте — от старта до безлимитного Оракула. Оплата через ЮKassa, доступ сразу после оформления подписки.',
     'payment.includes': 'Что входит',
     'payment.tier1.tagline': 'Для первого погружения',
     'payment.tier1.name': 'Premium',
@@ -700,10 +711,16 @@ const translations = {
     'footer.terms': 'Оферта',
     'footer.support': 'Поддержка',
     'footer.community': 'Сообщество',
+    'footer.investors': 'Инвесторам',
+    'footer.tryFree': 'Попробовать бесплатно',
     'footer.disclaimer': 'Материалы носят информационно-аналитический характер. Не являются медицинской, юридической, финансовой или иной профессиональной консультацией. Решения пользователь принимает самостоятельно.',
     'footer.rights': 'Все права защищены.',
 
     'legal.back': 'На главную',
+    'subpage.back': 'На главную',
+
+    'payment.freePromo': 'Хотите попробовать до оплаты?',
+    'payment.freeCta': 'Первый этап — бесплатно',
 
     'cookie.title': 'Мы используем cookies',
     'cookie.text': 'Сайт применяет файлы cookie, локальное хранилище браузера и обезличенную аналитику (Vercel Analytics) для корректной работы и улучшения сервиса. Продолжая пользоваться сайтом, вы соглашаетесь с этим. Подробнее — в Политике конфиденциальности.',
@@ -724,6 +741,7 @@ const translations = {
     'ctaFinal.p3': 'RU / EN · оплата через ЮKassa · активация сразу',
     'ctaFinal.ctaCommunity': 'Вступить в сообщество',
     'ctaFinal.ctaBot': 'Начать в боте',
+    'ctaFinal.ctaFree': 'Попробовать бесплатно',
     'ctaFinal.note': 'Поддержка 24/7 · @nikitok_m · RU / EN в боте'
   }
 };
@@ -887,6 +905,21 @@ const legalDocs = {
 
 let activeLegalDoc = null;
 
+/* --- Bot deep links --- */
+const BOT_LINKS = {
+  main: 'https://t.me/LapisVivus_bot',
+  free: 'https://t.me/LapisVivus_bot?start=free'
+};
+
+function t(key) {
+  return (translations[currentLang] && translations[currentLang][key])
+    || translations.en[key]
+    || '';
+}
+
+window.lapisT = t;
+window.lapisBotLinks = BOT_LINKS;
+
 /* --- State --- */
 let currentLang = 'en';
 
@@ -905,7 +938,6 @@ const NAV_SECTION_IDS = [
   'how-it-works',
   'protocol',
   'payment',
-  'investors',
   'faq'
 ];
 
@@ -1015,17 +1047,37 @@ function initCookieConsent() {
 document.addEventListener('DOMContentLoaded', async () => {
   await initLanguage();
   initCookieConsent();
-  initMobileMenu();
-  initSmoothScroll();
-  initFAQ();
-  initScrollReveal();
-  initHeroReveal();
-  initScrollHandlers();
-  initStarfield();
-  initStickyCta();
   initDynamicYear();
-  initLegalPages();
+  initMobileMenu();
+
+  const page = document.body.dataset.page || 'home';
+
+  if (page === 'home') {
+    initSmoothScroll();
+    initFAQ();
+    initScrollReveal();
+    initHeroReveal();
+    initScrollHandlers();
+    initStarfield();
+    initStickyCta();
+    initLegalPages();
+    return;
+  }
+
+  markSubpageNav();
 });
+
+function markSubpageNav() {
+  const page = document.body.dataset.page;
+  if (!page) return;
+
+  document.querySelectorAll('.nav__link').forEach(link => {
+    const href = link.getAttribute('href') || '';
+    if (page === 'investors' && href.includes('investors.html')) {
+      link.classList.add('active');
+    }
+  });
+}
 
 /* --- Unified scroll (single rAF) --- */
 function initScrollHandlers() {
@@ -1196,6 +1248,11 @@ function setLanguage(lang, options = {}) {
   document.title = lang === 'ru'
     ? 'Lapis Vivus — Персональный протокол глубинного анализа'
     : 'Lapis Vivus — Personal Deep-Analysis Protocol';
+
+  const page = document.body.dataset.page;
+  if (page === 'investors') {
+    document.title = `${t('investors.title')} · Lapis Vivus`;
+  }
 }
 
 /* --- Mobile Menu --- */

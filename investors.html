@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0614">
+  <title>Инвесторам · Lapis Vivus</title>
+  <meta name="description" content="Lapis Vivus — премиальная AI-экосистема в Telegram. Возможность войти на ранней стадии.">
+  <link rel="canonical" href="https://lp-lend.vercel.app/investors.html">
+  <link rel="icon" href="img/favicon.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var coarse = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+      var narrow = window.matchMedia('(max-width: 768px)').matches;
+      var cores = navigator.hardwareConcurrency || 8;
+      var mem = navigator.deviceMemory || 8;
+      var tier = 'high';
+      if (reduced || (coarse && narrow) || cores <= 2 || mem <= 2) tier = 'low';
+      else if (coarse || cores <= 4 || mem <= 4) tier = 'medium';
+      document.documentElement.classList.add('perf-' + tier);
+    })();
+  </script>
+</head>
+<body class="subpage" data-page="investors">
+
+  <div class="page-backdrop" aria-hidden="true">
+    <img class="page-backdrop__img" src="img/hero-bg.png" alt="" width="1920" height="1080" decoding="async" fetchpriority="low">
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Lapis Vivus">
+        <span class="logo__mark" aria-hidden="true">
+          <svg class="logo__icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGemFill" x1="7" y1="4" x2="25" y2="28" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ffe4ac"/>
+                <stop offset="0.55" stop-color="#6eb5ff"/>
+                <stop offset="1" stop-color="#2d4f9e"/>
+              </linearGradient>
+            </defs>
+            <path d="M16 3.5L26.8 10.8V21.2L16 28.5L5.2 21.2V10.8L16 3.5Z" fill="url(#logoGemFill)" fill-opacity="0.42"/>
+            <path d="M16 3.5V28.5M5.2 10.8H26.8M7.8 21.2H24.2" stroke="#f6d27a" stroke-width="1.1" stroke-linecap="round"/>
+            <path d="M10.5 10.8L16 16.2L21.5 10.8" stroke="#f6d27a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+            <circle cx="16" cy="16.2" r="2.1" fill="#f6d27a"/>
+          </svg>
+        </span>
+        <span class="logo__text">
+          <span class="logo__name">LAPIS VIVUS</span>
+          <span class="logo__tagline" data-i18n="brand.tagline">Протокол глубинного анализа</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html#home" class="nav__link" data-i18n="nav.home">Главная</a></li>
+          <li><a href="index.html#community" class="nav__link" data-i18n="nav.community">Сообщество</a></li>
+          <li><a href="index.html#services" class="nav__link" data-i18n="nav.modes">Режимы</a></li>
+          <li><a href="index.html#how-it-works" class="nav__link" data-i18n="nav.howItWorks">Как начать</a></li>
+          <li><a href="index.html#protocol" class="nav__link" data-i18n="nav.protocol">Экосистема</a></li>
+          <li><a href="index.html#payment" class="nav__link" data-i18n="nav.payment">Тарифы</a></li>
+          <li><a href="index.html#faq" class="nav__link" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="investors.html" class="nav__link nav__link--page active" data-i18n="nav.investors">Инвесторам</a></li>
+          <li class="nav__cta-wrap">
+            <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--block nav__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+          <span class="lang-switch__divider">/</span>
+          <button class="lang-switch__btn active" data-lang="ru" aria-pressed="true">RU</button>
+        </div>
+        <a href="https://t.me/LapisVivus_bot" class="btn btn--primary btn--sm header__cta" data-i18n="cta.openBot" target="_blank" rel="noopener noreferrer">Открыть бот</a>
+        <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+  <main class="subpage-main">
+    <section class="section investors investors--page">
+      <div class="container">
+        <header class="section__header reveal visible">
+          <p class="section__eyebrow" data-i18n="investors.eyebrow">Для инвесторов</p>
+          <h1 class="section__title" data-i18n="investors.title">Возможность войти на ранней стадии</h1>
+          <p class="section__subtitle section__subtitle--center" data-i18n="investors.subtitle">Lapis Vivus — премиальная AI-экосистема в Telegram: подписка, накопительный профиль пользователя и три режима монетизации в одном продукте.</p>
+        </header>
+
+        <div class="investors__deck glass reveal visible">
+          <div class="investors__grid">
+            <article class="investors__metric">
+              <span class="investors__metric-label" data-i18n="investors.m1.label">Канал дистрибуции</span>
+              <span class="investors__metric-value" data-i18n="investors.m1.value">Telegram-native</span>
+              <p class="investors__metric-desc" data-i18n="investors.m1.desc">Без App Store и долгого онбординга — продукт там, где уже есть аудитория. RU / EN из коробки.</p>
+            </article>
+            <article class="investors__metric">
+              <span class="investors__metric-label" data-i18n="investors.m2.label">Подписка</span>
+              <span class="investors__metric-value" data-i18n="investors.m2.value">Premium / Pro / Ultimate</span>
+              <p class="investors__metric-desc" data-i18n="investors.m2.desc">Три тарифа, оплата через ЮKassa, доступ активируется сразу после оформления подписки.</p>
+            </article>
+            <article class="investors__metric">
+              <span class="investors__metric-label" data-i18n="investors.m3.label">Глубина продукта</span>
+              <span class="investors__metric-value" data-i18n="investors.m3.value">36 этапов · 3 режима</span>
+              <p class="investors__metric-desc" data-i18n="investors.m3.desc">Протокол, совместимость и Оракул — не одноразовый ответ, а накапливаемый маршрут в профиле.</p>
+            </article>
+            <article class="investors__metric">
+              <span class="investors__metric-label" data-i18n="investors.m4.label">Удержание</span>
+              <span class="investors__metric-value" data-i18n="investors.m4.value">Сообщество 24/7</span>
+              <p class="investors__metric-desc" data-i18n="investors.m4.desc">Закрытая среда, живые материалы и команда поддержки — retention поверх аналитики.</p>
+            </article>
+          </div>
+
+          <div class="investors__layout">
+            <div class="investors__block">
+              <h2 class="investors__block-title" data-i18n="investors.why.title">Почему это интересно инвестору</h2>
+              <ul class="investors__points">
+                <li data-i18n="investors.why.l1">Премиум-позиционирование — глубина и структура вместо массового «гороскопа в чате»</li>
+                <li data-i18n="investors.why.l2">AI с контекстом — Оракул опирается на профиль и пройденные этапы, а не на шаблоны</li>
+                <li data-i18n="investors.why.l3">Повторяющаяся выручка — подписочная модель с понятными уровнями и апсейлом</li>
+                <li data-i18n="investors.why.l4">Низкий CAC-канал — органика через Telegram, сообщество и сарафан внутри ниши</li>
+                <li data-i18n="investors.why.l5">Масштаб без приложения — один бот, единый профиль, расширение на EN и смежные рынки</li>
+              </ul>
+            </div>
+
+            <div class="investors__block">
+              <h2 class="investors__block-title" data-i18n="investors.roadmap.title">Дорожная карта</h2>
+              <div class="roadmap__track">
+                <article class="roadmap__item">
+                  <span class="roadmap__year" data-i18n="investors.roadmap.y1.year">2025</span>
+                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y1.text">MVP бота: протокол, профиль рождения, оплата и базовые сценарии</span>
+                </article>
+                <article class="roadmap__item">
+                  <span class="roadmap__year" data-i18n="investors.roadmap.y2.year">2026</span>
+                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y2.text">Тарифы, Оракул, совместимость, сообщество и поддержка 24/7</span>
+                </article>
+                <article class="roadmap__item">
+                  <span class="roadmap__year" data-i18n="investors.roadmap.y3.year">2026+</span>
+                  <span class="roadmap__milestone" data-i18n="investors.roadmap.y3.text">Партнёрская сеть, B2B-интеграции, расширение географии и продуктовой линейки</span>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="investors__contact">
+            <p class="investors__contact-label" data-i18n="investors.contact.label">Для питча, deck и встречи с основателем</p>
+            <a href="https://t.me/nikitok_m" class="investors__contact-handle" target="_blank" rel="noopener noreferrer">@nikitok_m</a>
+            <p class="investors__contact-note" data-i18n="investors.contact.note">Напишите в Telegram — пришлём материалы, метрики и обсудим формат участия</p>
+            <a href="https://t.me/nikitok_m" class="btn btn--primary btn--glow investors__cta" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="investors.cta">Связаться в Telegram</span>
+              <svg class="btn__arrow" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer footer--subpage">
+    <div class="container footer__inner">
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="index.html" data-i18n="nav.home">Главная</a>
+        <a href="https://t.me/LapisVivus_bot?start=free" target="_blank" rel="noopener noreferrer" data-i18n="footer.tryFree">Попробовать бесплатно</a>
+        <a href="https://t.me/nikitok_m" target="_blank" rel="noopener noreferrer" data-i18n="footer.support">Поддержка</a>
+        <a href="https://t.me/LapisVivus" target="_blank" rel="noopener noreferrer" data-i18n="footer.community">Сообщество</a>
+        <a href="investors.html" data-i18n="footer.investors">Инвесторам</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Lapis Vivus</p>
+    </div>
+  </footer>
+
+  <aside class="cookie-banner" id="cookieBanner" hidden aria-hidden="true" role="dialog" aria-labelledby="cookieBannerTitle" aria-describedby="cookieBannerDesc" aria-live="polite">
+    <div class="cookie-banner__inner">
+      <div class="cookie-banner__glow" aria-hidden="true"></div>
+      <div class="cookie-banner__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.4"/><circle cx="8.5" cy="10" r="1.15" fill="currentColor"/><circle cx="13.5" cy="8.5" r="1" fill="currentColor"/><circle cx="15.5" cy="13" r="1.2" fill="currentColor"/><circle cx="10" cy="14.5" r="0.9" fill="currentColor"/></svg>
+      </div>
+      <div class="cookie-banner__content">
+        <p class="cookie-banner__title" id="cookieBannerTitle" data-i18n="cookie.title">Мы используем cookies</p>
+        <p class="cookie-banner__text" id="cookieBannerDesc" data-i18n="cookie.text">Сайт применяет файлы cookie, локальное хранилище браузера и обезличенную аналитику для корректной работы и улучшения сервиса.</p>
+      </div>
+      <div class="cookie-banner__actions">
+        <a href="index.html#legal-privacy" class="cookie-banner__link" data-i18n="cookie.policy">Подробнее</a>
+        <button type="button" class="cookie-banner__btn btn btn--primary" id="cookieAccept" data-i18n="cookie.accept">Хорошо</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

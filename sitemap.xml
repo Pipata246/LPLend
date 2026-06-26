@@ -3,11 +3,17 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lp-lend.vercel.app/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ru" href="https://lp-lend.vercel.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://lp-lend.vercel.app/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lp-lend.vercel.app/"/>
+  </url>
+  <url>
+    <loc>https://lp-lend.vercel.app/investors.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
