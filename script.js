@@ -6,7 +6,7 @@ const translations = {
   en: {
     'nav.home': 'Home',
     'nav.modes': 'Modes',
-    'nav.protocol': 'Ecosystem',
+    'nav.protocol': 'Protocol',
     'nav.community': 'Community',
     'nav.howItWorks': 'How to start',
     'nav.payment': 'Plans',
@@ -89,7 +89,7 @@ const translations = {
     'services.protocol.f3': 'Progress, interpretations, and data saved between sessions',
     'services.protocol.f4': 'Long answers split into pages — easy to read in Telegram',
     'services.protocol.f5': 'Each stage: description → run → interpretation → next step',
-    'services.protocol.link': 'See ecosystem →',
+    'services.protocol.link': 'See protocol systems →',
     'services.match.badge': 'For two',
     'services.match.title': 'Pair compatibility',
     'services.match.desc': 'A deep read of the bond between two people: how you affect each other, strengths, risks — and what to do next. Verdict and recommendations for the context you define.',
@@ -135,6 +135,34 @@ const translations = {
     'how.step4.desc': 'Get interpretations, build progress, ask follow-ups. 24/7 support and a community of like-minded people stay with you.',
     'how.step4.detail': 'Your route grows — you are not alone',
 
+    'methodology.eyebrow': 'What the protocol is built on',
+    'methodology.title': '12+ systems in one route',
+    'methodology.subtitle': 'Not a single «horoscope», but a sequential map: proven schools of astrology, numerology, typology, and somatic work — woven into a personal 36-stage protocol.',
+    'methodology.systemsTitle': 'What goes into the analysis',
+    'methodology.g1.title': 'Astrology',
+    'methodology.g1.desc': 'Western natal chart, Vedic astrology (Jyotish), current transits, synastry for pairs.',
+    'methodology.g2.title': 'Numerology & matrices',
+    'methodology.g2.desc': 'Human Design, Pythagorean square, Matrix of Destiny, Mayan Tzolkin calendar.',
+    'methodology.g3.title': 'Psychology & typology',
+    'methodology.g3.desc': 'Enneagram, socionics, MBTI, archetypal and cognitive profile.',
+    'methodology.g4.title': 'Eastern schools',
+    'methodology.g4.desc': 'Wu Xing (five elements), Ba Zi — heavenly pillars and energy balance in the Eastern lens.',
+    'methodology.g5.title': 'Body & palmistry',
+    'methodology.g5.desc': 'Somatic map, palm analysis, somatic practices at the end of the route.',
+    'methodology.partsTitle': 'Five parts · 36 stages',
+    'methodology.partsLead': 'One path — from personality roots to a personal action plan. Go all the way or pick a targeted request for your question.',
+    'methodology.p1.title': 'Genesis',
+    'methodology.p1.desc': 'Personality roots: Human Design, numerical code, thinking type, Mayan cycle, body map.',
+    'methodology.p2.title': 'Eastern Arcana',
+    'methodology.p2.desc': 'The Eastern lens: five elements, birth pillars, energy balance.',
+    'methodology.p3.title': 'Celestial Chart',
+    'methodology.p3.desc': 'Western sky, transits, palmistry; in pair mode — synastry and bond dynamics.',
+    'methodology.p4.title': 'Synthesis',
+    'methodology.p4.desc': 'All layers in one connection map: recurring patterns, strengths, and anchors for decisions.',
+    'methodology.p5.title': 'Integration',
+    'methodology.p5.desc': 'Personal action plan and somatic practices — so insights work in real life.',
+    'methodology.note': 'Built from birth date, time, and place. Each stage is a full answer: what it means for you personally and what to pay attention to.',
+
     'ecosystem.eyebrow': 'Ecosystem',
     'ecosystem.title': 'Everything for deep work — in one place',
     'ecosystem.subtitle': 'Lapis Vivus is not a single «analysis mode» but a complete environment: profile, three scenarios, community, and support. You pay for depth, not scattered answers.',
@@ -171,7 +199,7 @@ const translations = {
     'why.c1.title': 'Your route — not a template',
     'why.c1.desc': 'A personal code built from your data and questions — not someone else\'s boxed scenario.',
     'why.c2.title': '36 stages · synthesis',
-    'why.c2.desc': 'Multiple analytical layers in one map — depth no one-off reading can match.',
+    'why.c2.desc': 'Human Design, Jyotish, numerology, typology, and more — layered into one map no one-off reading can match.',
     'why.c3.title': 'Flexible depth',
     'why.c3.desc': 'One question or a full run — you choose the pace and format of working with the bot.',
     'why.c4.title': 'Profile strengthens',
@@ -321,7 +349,7 @@ const translations = {
     'faq.a6.note': 'Payment invoice is valid 10 minutes. Plan is selected and managed in the bot.',
     'faq.q7.tag': 'About',
     'faq.q7': 'Is this medicine or fortune-telling?',
-    'faq.a7.lead': 'No. Lapis Vivus is an information and analytical service at the intersection of astrology, psychology, and AI.',
+    'faq.a7.lead': 'No. Lapis Vivus is an information and analytical service that combines astrology, numerology, typology, somatic work, and AI interpretation.',
     'faq.a7.l1': 'Does not diagnose or prescribe treatment',
     'faq.a7.l2': 'Does not replace a doctor, lawyer, or financial advisor',
     'faq.a7.l3': 'Provides structured analytics for conscious decisions',
@@ -378,7 +406,7 @@ const translations = {
     'nav.home': 'Главная',
     'nav.modes': 'Режимы',
     'nav.community': 'Сообщество',
-    'nav.protocol': 'Экосистема',
+    'nav.protocol': 'Протокол',
     'nav.howItWorks': 'Как начать',
     'nav.payment': 'Тарифы',
     'nav.faq': 'FAQ',
@@ -460,7 +488,7 @@ const translations = {
     'services.protocol.f3': 'Прогресс, интерпретации и данные сохраняются между сессиями',
     'services.protocol.f4': 'Длинные ответы разбиты на страницы — удобно читать в Telegram',
     'services.protocol.f5': 'Каждый этап: описание → запуск → интерпретация → следующий шаг',
-    'services.protocol.link': 'Смотреть экосистему →',
+    'services.protocol.link': 'Смотреть системы протокола →',
     'services.match.badge': 'Для двоих',
     'services.match.title': 'Совместимость пары',
     'services.match.desc': 'Глубокий разбор связи двух людей: как вы влияете друг на друга, где сильные стороны, где риски — и что делать дальше. Вердикт и рекомендации под контекст, который задаёте вы.',
@@ -506,6 +534,34 @@ const translations = {
     'how.step4.desc': 'Получайте интерпретации, копите прогресс, задавайте уточнения. Рядом — поддержка 24/7 и сообщество людей «в теме».',
     'how.step4.detail': 'Маршрут растёт — вы не остаётесь один',
 
+    'methodology.eyebrow': 'На чём построен протокол',
+    'methodology.title': '12+ систем в одном маршруте',
+    'methodology.subtitle': 'Не один «гороскоп», а последовательная карта: проверенные школы астрологии, нумерологии, типологии и телесной работы — собраны в личный протокол из 36 этапов.',
+    'methodology.systemsTitle': 'Что входит в анализ',
+    'methodology.g1.title': 'Астрология',
+    'methodology.g1.desc': 'Западная натальная карта, ведическая астрология (джйотиш), текущие транзиты, синастрия для пары.',
+    'methodology.g2.title': 'Нумерология и матрицы',
+    'methodology.g2.desc': 'Human Design, квадрат Пифагора, матрица судьбы, майянский календарь Цолькин.',
+    'methodology.g3.title': 'Психология и типология',
+    'methodology.g3.desc': 'Эннеаграмма, соционика, MBTI, архетипический и когнитивный профиль.',
+    'methodology.g4.title': 'Восточные школы',
+    'methodology.g4.desc': 'У-Син (пять стихий), Ба-цзы — небесные столпы и баланс энергий по восточной логике.',
+    'methodology.g5.title': 'Тело и хиромантия',
+    'methodology.g5.desc': 'Соматическая карта, анализ ладоней, телесные практики на финале маршрута.',
+    'methodology.partsTitle': 'Пять частей · 36 этапов',
+    'methodology.partsLead': 'Один путь — от корней личности до личного плана. Пройдите целиком или выберите точечный запрос под ваш вопрос.',
+    'methodology.p1.title': 'Происхождение',
+    'methodology.p1.desc': 'Корни личности: Human Design, числовой код, тип мышления, майянский цикл, карта тела.',
+    'methodology.p2.title': 'Восточная аркана',
+    'methodology.p2.desc': 'Взгляд восточных школ: пять стихий, небесные столпы рождения, баланс энергий.',
+    'methodology.p3.title': 'Небесная карта',
+    'methodology.p3.desc': 'Западное небо, транзиты, хиромантия; в режиме пары — синастрия и динамика связи.',
+    'methodology.p4.title': 'Синтез',
+    'methodology.p4.desc': 'Все слои в единой карте связей: повторяющиеся паттерны, сильные стороны и точки опоры для решений.',
+    'methodology.p5.title': 'Интеграция',
+    'methodology.p5.desc': 'Персональный план действий и телесные практики — чтобы выводы работали в реальной жизни.',
+    'methodology.note': 'Расчёт по дате, времени и месту рождения. Каждый этап — развёрнутый ответ: что это значит лично для вас и на что обратить внимание.',
+
     'ecosystem.eyebrow': 'Экосистема',
     'ecosystem.title': 'Всё для глубокой работы — в одном месте',
     'ecosystem.subtitle': 'Lapis Vivus — не один «режим анализа», а цельная среда: профиль, три сценария, сообщество и команда поддержки. Вы платите за глубину, а не за разрозненные ответы.',
@@ -542,7 +598,7 @@ const translations = {
     'why.c1.title': 'Ваш маршрут — не шаблон',
     'why.c1.desc': 'Персональный код строится по вашим данным и вопросам — не чужой сценарий из коробки.',
     'why.c2.title': '36 этапов · синтез систем',
-    'why.c2.desc': 'Несколько аналитических слоёв собраны в одну карту — глубина, которую не даёт разовый разбор.',
+    'why.c2.desc': 'Human Design, джйотиш, нумерология, типология и другие школы — в одной карте, которую не даёт разовый разбор.',
     'why.c3.title': 'Гибкость глубины',
     'why.c3.desc': 'Точечный вопрос или полный прогон — вы сами выбираете темп и формат работы с ботом.',
     'why.c4.title': 'Профиль усиливается',
@@ -692,7 +748,7 @@ const translations = {
     'faq.a6.note': 'Счёт на оплату действует 10 минут. Тариф меняется и управляется в боте.',
     'faq.q7.tag': 'О сервисе',
     'faq.q7': 'Это медицина или гадание?',
-    'faq.a7.lead': 'Нет. Lapis Vivus — информационно-аналитический сервис на стыке астрологии, психологии и ИИ.',
+    'faq.a7.lead': 'Нет. Lapis Vivus — информационно-аналитический сервис: астрология, нумерология, типология, соматика и ИИ-интерпретация в одном протоколе.',
     'faq.a7.l1': 'Не ставит диагнозы и не назначает лечение',
     'faq.a7.l2': 'Не заменяет врача, юриста или финансового консультанта',
     'faq.a7.l3': 'Даёт структурированную аналитику для осознанных решений',
@@ -936,7 +992,7 @@ const NAV_SECTION_IDS = [
   'community',
   'services',
   'how-it-works',
-  'protocol',
+  'methodology',
   'payment',
   'faq'
 ];
@@ -978,8 +1034,14 @@ function resolveActiveNavSection() {
 }
 
 function setActiveNavSection(id) {
+  const navAliases = {
+    protocol: '#methodology',
+  };
+
   document.querySelectorAll('.nav__link').forEach(link => {
-    const isActive = link.getAttribute('href') === `#${id}`;
+    const href = link.getAttribute('href');
+    const normalizedHref = href && href.includes('#') ? href.slice(href.indexOf('#')) : href;
+    const isActive = normalizedHref === `#${id}` || navAliases[id] === normalizedHref;
     link.classList.toggle('active', isActive);
     if (isActive) {
       link.setAttribute('aria-current', 'location');

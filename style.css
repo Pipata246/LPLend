@@ -1482,6 +1482,155 @@ section[id] {
 }
 
 /* ============================================
+   METHODOLOGY / PROTOCOL SYSTEMS
+   ============================================ */
+
+.methodology {
+  padding-bottom: 8px;
+}
+
+.methodology__systems-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.methodology__systems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.methodology__system {
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.methodology__system-title {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: var(--gold-1);
+  line-height: 1.3;
+}
+
+.methodology__system-desc {
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.methodology__parts {
+  margin-bottom: 28px;
+}
+
+.methodology__parts-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.methodology__parts-lead {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 52ch;
+  margin: 0 auto 24px;
+}
+
+.methodology__parts-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.methodology__part {
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100%;
+}
+
+.methodology__part-num {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--gold-1);
+  line-height: 1;
+  opacity: 0.9;
+}
+
+.methodology__part-title {
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.25;
+}
+
+.methodology__part-desc {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.methodology__note {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 58ch;
+  margin: 0 auto;
+}
+
+.methodology__divider {
+  height: 1px;
+  max-width: min(1120px, calc(100% - 48px));
+  margin: 48px auto 56px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(246, 210, 122, 0.22) 20%,
+    rgba(246, 210, 122, 0.22) 80%,
+    transparent
+  );
+}
+
+.ecosystem__inner {
+  padding-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .methodology__parts-track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .methodology__parts-track {
+    grid-template-columns: 1fr;
+  }
+
+  .methodology__divider {
+    margin: 36px auto 44px;
+  }
+}
+
+/* ============================================
    ECOSYSTEM VALUE BLOCK
    ============================================ */
 
