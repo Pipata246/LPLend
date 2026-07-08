@@ -4487,6 +4487,10 @@ html.perf-low .cookie-banner__inner {
     z-index: 1003;
   }
 
+  .header__actions {
+    gap: 10px;
+  }
+
   .header__cta {
     display: none;
   }
@@ -4494,11 +4498,14 @@ html.perf-low .cookie-banner__inner {
   .lang-switch {
     display: inline-flex;
     padding: 2px;
+    border-radius: 14px;
   }
 
   .lang-switch__btn {
-    padding: 5px 8px;
-    font-size: 0.56rem;
+    height: 26px;
+    min-width: 34px;
+    padding: 0 8px;
+    font-size: 0.54rem;
     letter-spacing: 0.08em;
   }
 
