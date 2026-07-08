@@ -4487,9 +4487,19 @@ html.perf-low .cookie-banner__inner {
     z-index: 1003;
   }
 
-  .header__cta,
-  .lang-switch {
+  .header__cta {
     display: none;
+  }
+
+  .lang-switch {
+    display: inline-flex;
+    padding: 2px;
+  }
+
+  .lang-switch__btn {
+    padding: 5px 8px;
+    font-size: 0.56rem;
+    letter-spacing: 0.08em;
   }
 
   .sticky-cta {
