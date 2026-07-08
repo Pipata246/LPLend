@@ -810,7 +810,7 @@ const legalDocs = {
         <p class="legal-doc__updated">Редакция от 22 июня 2026 г.</p>
         <p>Настоящий документ является официальным предложением (публичной офертой) владельца сервиса Lapis Vivus заключить договор на условиях, изложенных ниже.</p>
         <h2>1. Термины</h2>
-        <p><strong>Сервис</strong> — Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сопутствующие материалы на сайте lp-lend.vercel.app.</p>
+        <p><strong>Сервис</strong> — Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сопутствующие материалы на сайте lapisvivus.online.</p>
         <p><strong>Пользователь</strong> — физическое лицо, использующее Сервис. <strong>Исполнитель</strong> — лицо, предоставляющее доступ к Сервису.</p>
         <h2>2. Предмет договора</h2>
         <p>Исполнитель предоставляет Пользователю доступ к информационно-аналитическим функциям Сервиса: персональный протокол, режим совместимости, Оракул, а также сопутствующие материалы и сообщество.</p>
@@ -842,7 +842,7 @@ const legalDocs = {
       html: `
         <h1 class="legal-doc__title">Политика конфиденциальности</h1>
         <p class="legal-doc__updated">Редакция от 22 июня 2026 г.</p>
-        <p>Настоящая Политика описывает порядок обработки персональных данных пользователей сервиса Lapis Vivus (Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сайт lp-lend.vercel.app).</p>
+        <p>Настоящая Политика описывает порядок обработки персональных данных пользователей сервиса Lapis Vivus (Telegram-бот <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> и сайт lapisvivus.online).</p>
         <h2>1. Какие данные мы обрабатываем</h2>
         <ul>
           <li>Идентификатор Telegram и имя пользователя в мессенджере.</li>
@@ -887,7 +887,7 @@ const legalDocs = {
         <p class="legal-doc__updated">Effective June 22, 2026</p>
         <p>This document is a public offer by the owner of Lapis Vivus to enter into an agreement on the terms below.</p>
         <h2>1. Definitions</h2>
-        <p><strong>Service</strong> — the Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and related materials at lp-lend.vercel.app.</p>
+        <p><strong>Service</strong> — the Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and related materials at lapisvivus.online.</p>
         <p><strong>User</strong> — an individual using the Service. <strong>Provider</strong> — the party granting access to the Service.</p>
         <h2>2. Subject</h2>
         <p>The Provider grants access to information and analytical features: personal protocol, compatibility mode, Oracle, related materials, and community access.</p>
@@ -919,7 +919,7 @@ const legalDocs = {
       html: `
         <h1 class="legal-doc__title">Privacy Policy</h1>
         <p class="legal-doc__updated">Effective June 22, 2026</p>
-        <p>This Policy describes how Lapis Vivus (Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and lp-lend.vercel.app) processes personal data.</p>
+        <p>This Policy describes how Lapis Vivus (Telegram bot <a href="https://t.me/LapisVivus_bot" target="_blank" rel="noopener noreferrer">@LapisVivus_bot</a> and lapisvivus.online) processes personal data.</p>
         <h2>1. Data we process</h2>
         <ul>
           <li>Telegram user ID and display name.</li>
